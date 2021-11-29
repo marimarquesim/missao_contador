@@ -84,6 +84,8 @@ export default function Home() {
       backgroundAttachment={['initial', 'initial', 'initial', 'inherit', "fixed"]}
       backgroundRepeat="no-repeat"
     >
+      <meta name="theme-color" content="#000000" />
+      <title>Missão Contador</title>
       <Text fontSize="5rem" color='white' fontFamily='JosefinBold' >
         Estamos em manutenção
       </Text>
