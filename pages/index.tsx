@@ -16,7 +16,7 @@ import { Vagas } from '../src/components/vagas';
 
 import Head from "next/head";
 
-import { Box,  } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import { Footer } from '../src/components/footer';
 
 import handleViewport from 'react-in-viewport';
@@ -27,14 +27,14 @@ import * as gtag from '../lib/gtag'
 const Block = (props) => {
   const { inViewport, forwardedRef, enterCount } = props;
   if (inViewport && enterCount === 1) {
-      return (
-          <Numeros />
-      )
+    return (
+      <Numeros />
+    )
   }
   return (
     <div ref={forwardedRef}>
-      
-      </div>
+
+    </div>
   );
 };
 
@@ -43,32 +43,51 @@ const ViewportBlock = handleViewport(Block);
 export default function Home() {
 
   return (
-    <Box maxW="100%" backgroundColor="black">
-      <Head>
-  
-    <meta name="theme-color" content="#000000" />
-        <title>Missão Contador</title>
-        
-          
-  </Head>
-    
-       <Timer/> 
-      <Header /> 
-      <Bonus />
-      <Video/>
-       <JhonnyVSJ1 />
-      <About />
-      <PorqueComprar /> 
-      <PublicoAlvo />
-      <Conteudo />
-      <Clientes />
-      <Estrutura />
-      <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
-      <Preco />
-        <Vagas />
-        <Footer/>
-      <WhastsAppButton />   
-    
-      </Box>
+    //   <Box maxW="100%" backgroundColor="black">
+    //     <Head>
+
+    //   <meta name="theme-color" content="#000000" />
+    //       <title>Missão Contador</title>
+
+
+    // </Head>
+
+    //      <Timer/> 
+    //     <Header /> 
+    //     <Bonus />
+    //     <Video/>
+    //      <JhonnyVSJ1 />
+    //     <About />
+    //     <PorqueComprar /> 
+    //     <PublicoAlvo />
+    //     <Conteudo />
+    //     <Clientes />
+    //     <Estrutura />
+    //     <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+    //     <Preco />
+    //       <Vagas />
+    //       <Footer/>
+    //     <WhastsAppButton />   
+
+    //     </Box>
+
+
+    <Box w="100%"
+      h="100vh"
+      display='flex'
+      justifyContent='center'
+      justifyItems='center'
+      alignContent='center'
+      alignItems='center'
+      backgroundImage="url('assets/images/bg_icons.svg')"
+      backgroundSize="cover"
+      backgroundAttachment={['initial', 'initial', 'initial', 'inherit', "fixed"]}
+      backgroundRepeat="no-repeat"
+    >
+      <Text fontSize="5rem" color='white' fontFamily='JosefinBold' >
+        Estamos em manutenção
+      </Text>
+
+    </Box>
   )
 }
