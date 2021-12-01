@@ -43,53 +43,53 @@ const ViewportBlock = handleViewport(Block);
 export default function Home() {
 
   return (
-    //   <Box maxW="100%" backgroundColor="black">
-    //     <Head>
+       <Box maxW="100%" backgroundColor="black">
+         <Head>
 
+       <meta name="theme-color" content="#000000" />
+           <title>Missão Contador</title>
+
+
+     </Head>
+
+          <Timer/> 
+         <Header /> 
+         <Bonus />
+         <Video/>
+          <JhonnyVSJ1 />
+         <About />
+         <PorqueComprar /> 
+         <PublicoAlvo />
+         <Conteudo />
+         <Clientes />
+         <Estrutura />
+         <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+         <Preco />
+           <Vagas />
+           <Footer/>
+         <WhastsAppButton />   
+
+         </Box>
+
+
+    // <Box w="100%"
+    //   h="100vh"
+    //   display='flex'
+    //   justifyContent='center'
+    //   justifyItems='center'
+    //   alignContent='center'
+    //   alignItems='center'
+    //   backgroundImage="url('assets/images/bg_icons.svg')"
+    //   backgroundSize="cover"
+    //   backgroundAttachment={['initial', 'initial', 'initial', 'inherit', "fixed"]}
+    //   backgroundRepeat="no-repeat"
+    // >
     //   <meta name="theme-color" content="#000000" />
-    //       <title>Missão Contador</title>
+    //   <title>Missão Contador</title>
+    //   <Text fontSize="5rem" color='white' fontFamily='JosefinBold' >
+    //     Estamos em manutenção
+    //   </Text>
 
-
-    // </Head>
-
-    //      <Timer/> 
-    //     <Header /> 
-    //     <Bonus />
-    //     <Video/>
-    //      <JhonnyVSJ1 />
-    //     <About />
-    //     <PorqueComprar /> 
-    //     <PublicoAlvo />
-    //     <Conteudo />
-    //     <Clientes />
-    //     <Estrutura />
-    //     <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
-    //     <Preco />
-    //       <Vagas />
-    //       <Footer/>
-    //     <WhastsAppButton />   
-
-    //     </Box>
-
-
-    <Box w="100%"
-      h="100vh"
-      display='flex'
-      justifyContent='center'
-      justifyItems='center'
-      alignContent='center'
-      alignItems='center'
-      backgroundImage="url('assets/images/bg_icons.svg')"
-      backgroundSize="cover"
-      backgroundAttachment={['initial', 'initial', 'initial', 'inherit', "fixed"]}
-      backgroundRepeat="no-repeat"
-    >
-      <meta name="theme-color" content="#000000" />
-      <title>Missão Contador</title>
-      <Text fontSize="5rem" color='white' fontFamily='JosefinBold' >
-        Estamos em manutenção
-      </Text>
-
-    </Box>
+    // </Box>
   )
 }
