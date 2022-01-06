@@ -31,17 +31,20 @@ export function Footer() {
       .required("Campo obrigatório"),
     telefone: yup
       .string()
-      .matches(
-        /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
-        "Digite um telefone válido"
-      )
-
-      .min(11, "Telefone incompleto")
+      .min(15, "Telefone incompleto")
       .required("Campo obrigatório"),
 
     cidade: yup.string().required("Campo obrigatório").min(3),
     mensagem: yup.string().required("Campo obrigatório").min(5),
   });
+
+  const maskPhone = (value) => {
+    return value
+      .replace(/\D/g, "")
+      .replace(/(\d{2})(\d)/, "($1) $2")
+      .replace(/(\d{5})(\d)/, "$1-$2")
+      .replace(/(-\d{4})(\d+?)$/, "$1");
+  };
 
   return (
     <Flex
@@ -343,11 +346,11 @@ export function Footer() {
                         type="tel"
                         onChange={handleChange}
                         onBlur={handleBlur}
-                        value={values.telefone}
+                        value={maskPhone(values.telefone)}
                         h="30px"
                         backgroundColor="white"
                         color="black"
-                        maxLength={11}
+                        maxLength={15}
                       />
 
                       <Text color="white" fontSize="15px">
