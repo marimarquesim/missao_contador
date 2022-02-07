@@ -164,28 +164,60 @@ export function Conteudo() {
       alignItems="center"
       justifyItems="center"
     >
-      <Modal onClose={onClose} isOpen={isOpen} isCentered>
+      <Modal
+        onClose={onClose}
+        isOpen={isOpen}
+        isCentered
+        preserveScrollBarGap={true}
+      >
         <ModalOverlay />
-        <ModalContent backgroundColor="#680000" color="white">
+        <ModalContent
+          backgroundColor="#680000"
+          color="white"
+          maxWidth="90vw"
+          p="5%"
+        >
           <ModalHeader
             fontFamily="JosefinMedio"
-            fontSize="1.8rem"
-            lineHeight="30px"
+            fontSize={["2rem", "2rem", "2rem", "2rem", "2rem", "3vw"]}
+            lineHeight={["30px", "30px", "30px", "30px", "30px", "3vw"]}
           >
             {selectedCard.title}
           </ModalHeader>
 
-          <ModalBody pl="10%" fontFamily="JosefinRegular" lineHeight="20px">
+          <ModalBody
+            pl="10%"
+            fontFamily="JosefinRegular"
+            fontSize={[
+              "1.25rem",
+              "1.25rem",
+              "1.25rem",
+              "1.25rem",
+              "1.25rem",
+              "1.6vw",
+            ]}
+            lineHeight={["20px", "20px", "20px", "20px", "20px", "1.4vw"]}
+          >
             {selectedCard.description}{" "}
           </ModalBody>
 
           <ModalFooter>
             <Button
+              fontSize={[
+                "1.25rem",
+                "1.25rem",
+                "1.25rem",
+                "1.25rem",
+                "1.25rem",
+                "1.6vw",
+              ]}
+              lineHeight={["20px", "20px", "20px", "20px", "20px", "1.4vw"]}
               colorScheme="black"
               backgroundColor="black"
               _hover={{ backgroundColor: "black" }}
               mr={3}
               onClick={onClose}
+              p="2%"
             >
               Fechar
             </Button>
