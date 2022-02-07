@@ -76,8 +76,8 @@ export function Bonus() {
               pt="1%"
               align={["center", "center", "left"]}
             >
-              E ainda... os cincos primeiros a se inscreverem terão direito a
-              uma mentoria individual com o Jhonny.
+              E ainda... os primeiros a se inscreverem terão direito a uma
+              mentoria individual com o Jhonny.
             </Text>
             <Text
               fontFamily="JosefinLight"

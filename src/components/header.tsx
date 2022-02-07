@@ -66,18 +66,27 @@ export function Header() {
             >
               <Image
                 alt="Logo 00J"
-                src="assets/images/logo.svg"
+                src="assets/images/logo.png"
                 w={["500px", "500px", "500px", "500px", "500px", "20vw"]}
                 ml={["0", "0", "0", "2%"]}
               />
             </Box>
-            <Box w={["auto", "auto", "60%", "60%", "100%"]}>
+            <Box w={["auto", "auto", "60%", "60%", "100%"]} mt="2%">
               <Text
                 fontFamily="JosefinMedio"
-                fontSize={["2rem", "2rem", "2rem", "2rem", "3rem", "3.9vw"]}
-                lineHeight={["30px", "30px", "30px", "30px", "30px", "3vw"]}
+                fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3.9vw"]}
+                lineHeight={["44px", "44px", "44px", "44px", "44px", "3vw"]}
               >
-                O Mercado Tradicional nunca mais será o mesmo...
+                Você é{" "}
+                <Box as="span" fontFamily={"JosefinBold"}>
+                  {" "}
+                  contador{" "}
+                </Box>
+                e precisa aumentar
+                <Box as="span" fontFamily={"JosefinBold"}>
+                  {" "}
+                  seu faturamento?
+                </Box>
               </Text>
               <Text
                 fontSize={[

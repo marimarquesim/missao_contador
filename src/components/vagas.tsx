@@ -74,7 +74,7 @@ export function Vagas() {
                 bg="#ed0a0a"
                 pt="3%"
                 as="a"
-                href="https://link.pagar.me/lSJQWH6gvY"
+                href="https://link.pagar.me/lBJ3wXGykq"
                 target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
@@ -104,7 +104,7 @@ export function Vagas() {
                 bg="#ed0a0a"
                 mt="8%"
                 as="a"
-                href="https://link.pagar.me/lS17c46gPY"
+                href="https://link.pagar.me/lH11Hmz1k5"
                 target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}

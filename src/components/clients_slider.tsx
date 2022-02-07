@@ -558,6 +558,62 @@ export function Clientes() {
               Ivan Moré
             </Text>
           </Box>
+
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "15vw"]}
+              src="assets/images/pyong_lee.png"
+            />
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Pyong Lee
+            </Text>
+          </Box>
+
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "15vw"]}
+              src="assets/images/boca.png"
+            />
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Boca Rosa
+            </Text>
+          </Box>
         </Carousel>
       </Box>
     </Box>
