@@ -38,6 +38,7 @@ export function Vagas() {
           >
             <Box>
               <Heading fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}>
+                Lote 1 - <br />
                 Vagas Limitadas!
               </Heading>
               <Text
