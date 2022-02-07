@@ -204,7 +204,8 @@ export function Conteudo() {
           pb="2%"
           fontFamily="JosefinRegular"
           color="white"
-          fontSize={["2.8rem", "2.8rem", "3.5rem"]}
+          fontSize={["2rem", "2rem", "2rem", "2rem", "3rem", "3.9vw"]}
+          lineHeight={["30px", "30px", "30px", "30px", "30px", "3vw"]}
           w={["300px", "auto"]}
         >
           O QUE VOCÊ IRÁ APRENDER:
@@ -238,10 +239,21 @@ export function Conteudo() {
                   onOpen();
                 }}
                 bg="transparent"
-                width={["250px", "250px"]}
+                width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
               >
                 <Box display="flex" justifyContent="center" alignItems="center">
-                  <Box as="img" src={card.image} w="250px" />
+                  <Box
+                    as="img"
+                    src={card.image}
+                    width={[
+                      "250px",
+                      "200px",
+                      "250px",
+                      "250px",
+                      "250px",
+                      "15vw",
+                    ]}
+                  />
                 </Box>
               </Box>
             </Box>

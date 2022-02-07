@@ -80,6 +80,7 @@ export function Timer() {
           textShadow="0 0 0.02em #F56565, 0 0 0.05em #C53030, 0 0 0.1em #E53E3E"
           textAlign="center"
           fontFamily="JosefinRegular"
+          fontSize={["2.2rem", "2.2rem", "3.5rem", "3.5rem", "3.1vw"]}
         >
           INSCRIÇÕES EM BREVE
         </Heading>

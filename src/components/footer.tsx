@@ -55,7 +55,7 @@ export function Footer() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1003px", "1116px", "150vh", "680px"]}
+      maxH={["1003px", "1116px", "180vh", "680px"]}
       pb="5%"
       pt="5%"
       backgroundColor="black"

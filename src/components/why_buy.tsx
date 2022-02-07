@@ -6,8 +6,8 @@ export function PorqueComprar() {
       id="beneficios"
       direction="column"
       maxW="100%"
-      minH={["100vh", "100vh", "1000px", "500px", "100vh"]}
-      pt={["8%", "8%", "5%", "1%"]}
+      minH={["100vh", "100vh", "1000px", "500px", "100vh", "50vh"]}
+      pt={["8%", "8%", "5%", "1%", "1%", "2%"]}
       pb="5%"
       backgroundImage="url('assets/images/bg_icons.svg')"
       backgroundSize="cover"
@@ -36,7 +36,7 @@ export function PorqueComprar() {
           pb="1%"
           fontFamily="JosefinRegular"
           color="white"
-          fontSize={["2.8rem", "2.8rem", "3.5rem"]}
+          fontSize={["2.8rem", "2.8rem", "3.5rem", "3.5rem", "3.1vw"]}
           w={["300px", "auto", "700px", "800px", "90vw"]}
         >
           POR QUE FAZER PARTE DA MISSÃO CONTADOR
@@ -61,14 +61,14 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box
                   as="img"
                   src="assets/images/icon_cultural.svg"
-                  w="250px"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
                 ></Box>
               </Box>
             </Box>
@@ -79,14 +79,14 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box
                   as="img"
                   src="assets/images/icon_networking.svg"
-                  w="250px"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
                 ></Box>
               </Box>
             </Box>
@@ -97,11 +97,15 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
-                <Box as="img" src="assets/images/icon_time.svg" w="250px"></Box>
+                <Box
+                  as="img"
+                  src="assets/images/icon_time.svg"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+                ></Box>
               </Box>
             </Box>
           </Box>
@@ -111,14 +115,14 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box
                   as="img"
                   src="assets/images/icon_ferramenta.svg"
-                  w="250px"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
                 ></Box>
               </Box>
             </Box>
@@ -129,14 +133,14 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box
                   as="img"
                   src="assets/images/icon_seguranca.svg"
-                  w="250px"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
                 ></Box>
               </Box>
             </Box>
@@ -147,14 +151,14 @@ export function PorqueComprar() {
               boxShadow="dark-lg"
               rounded="full"
               bg="transparent"
-              width={["250px", "250px"]}
-              height="250px"
+              width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
+              height={["250px", "200px", "250px", "250px", "250px", "15vw"]}
             >
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box
                   as="img"
                   src="assets/images/icon_mkt_digital.svg"
-                  w="250px"
+                  width={["250px", "200px", "250px", "250px", "250px", "15vw"]}
                 ></Box>
               </Box>
             </Box>
