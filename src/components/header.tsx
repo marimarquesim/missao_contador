@@ -116,7 +116,7 @@ export function Header() {
                   fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "2.5vw"]}
                   lineHeight={["40px", "40px", "40px", "40px", "40px", "2.2vw"]}
                 >
-                  Inscrições em breve
+                  20 e 21/05
                 </Text>
                 <br />
                 <Text

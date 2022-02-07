@@ -11,6 +11,7 @@ function MyTimer({ expiryTimestamp }) {
   return (
     <Box style={{ textAlign: "center" }}>
       <Box
+        ml={["0", "5%"]}
         flexDirection="row"
         display="flex"
         style={{ fontSize: "70px" }}
@@ -23,7 +24,7 @@ function MyTimer({ expiryTimestamp }) {
         <span>
           {" "}
           {days}
-          <Box fontSize="25px" mt="-15%">
+          <Box fontSize={["20px", "25px", "25px", "25px"]} mt="-15%">
             Dias
           </Box>
         </span>
@@ -31,7 +32,7 @@ function MyTimer({ expiryTimestamp }) {
         <span>
           {" "}
           {hours}
-          <Box fontSize="25px" mt="-10%">
+          <Box fontSize={["20px", "25px", "25px", "25px"]} mt="-10%">
             Horas
           </Box>
         </span>
@@ -39,7 +40,7 @@ function MyTimer({ expiryTimestamp }) {
         <span>
           {" "}
           {minutes}
-          <Box fontSize="25px" mt="-10%">
+          <Box fontSize={["20px", "25px", "25px", "25px"]} mt="-10%">
             Minutos
           </Box>
         </span>
@@ -47,7 +48,7 @@ function MyTimer({ expiryTimestamp }) {
         <span>
           {" "}
           {seconds}
-          <Box fontSize="25px" mt="-10%" mr="-5   %">
+          <Box fontSize={["20px", "25px", "25px", "25px"]} mt="-10%" mr="-5%">
             Segundos
           </Box>
         </span>
@@ -58,8 +59,11 @@ function MyTimer({ expiryTimestamp }) {
 
 export function Timer() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 0.1); // 10 minutes timer
+  time.setSeconds(time.getSeconds() + 7430400); // 10 minutes timer
 
+  //85 dias 7344000
+  //84 dias 7257600
+  //83 dias 7171200
   return (
     <Box
       id="home"
@@ -76,18 +80,19 @@ export function Timer() {
         <Heading
           color="red"
           w="100%"
-          mr="2%"
+          mr="4%"
+          P="2%"
           textShadow="0 0 0.02em #F56565, 0 0 0.05em #C53030, 0 0 0.1em #E53E3E"
           textAlign="center"
           fontFamily="JosefinRegular"
-          fontSize={["2.2rem", "2.2rem", "3.5rem", "3.5rem", "3.1vw"]}
+          fontSize={["2rem", "2.2rem", "3.5rem", "3.5rem", "3.1vw"]}
         >
-          INSCRIÇÕES EM BREVE
+          ENCERRA EM:
         </Heading>
       </Box>
-      {/* <Box w="300px">
-                <MyTimer expiryTimestamp={time} />
-            </Box> */}
+      <Box w="300px">
+        <MyTimer expiryTimestamp={time} />
+      </Box>
     </Box>
   );
 }
