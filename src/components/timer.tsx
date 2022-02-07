@@ -56,10 +56,6 @@ function MyTimer({ expiryTimestamp }) {
   );
 }
 
-//15 hrs - 54000
-//10 hrs - 36000
-//5hrs - 18000
-
 export function Timer() {
   const time = new Date();
   time.setSeconds(time.getSeconds() + 0.1); // 10 minutes timer
