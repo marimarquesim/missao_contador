@@ -167,7 +167,7 @@ export function Clientes() {
           <Box
             as="img"
             w={["150px", "150px", "150px", "150px", "150px", "10vw"]}
-            src="assets/images/marca_gestao.png"
+            src="assets/images/marca_g4.png"
           />
 
           <Box
