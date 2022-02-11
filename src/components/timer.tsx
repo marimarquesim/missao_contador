@@ -57,9 +57,10 @@ function MyTimer({ expiryTimestamp }) {
   );
 }
 
+// ate 04/03
 export function Timer() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 2160000); // 10 minutes timer
+  time.setSeconds(time.getSeconds() + 1814400); // 10 minutes timer
 
   //85 dias 7344000
   //84 dias 7257600
