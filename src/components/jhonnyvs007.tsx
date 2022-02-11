@@ -162,8 +162,24 @@ export function JhonnyVSJ1() {
               <Image
                 alt="Jhonny"
                 src="assets/images/jhonny_00j.png"
-                maxW={["316px", "386px", "357px", "584px", "600px", "5000px"]}
-                minW={["316px", "386px", "357px", "584px", "600px", "155%"]}
+                maxW={[
+                  "316px",
+                  "386px",
+                  "357px",
+                  "584px",
+                  "600px",
+                  "600px",
+                  "5000px",
+                ]}
+                minW={[
+                  "316px",
+                  "386px",
+                  "357px",
+                  "584px",
+                  "600px",
+                  "600px",
+                  "155%",
+                ]}
               />
             </Box>
           </Stack>
