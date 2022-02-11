@@ -9,6 +9,13 @@ import {
   Button,
   Textarea,
   Input,
+  AlertDialog,
+  AlertDialogBody,
+  AlertDialogCloseButton,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogOverlay,
+  useDisclosure,
 } from "@chakra-ui/react";
 import {
   FaFacebook,
@@ -17,7 +24,9 @@ import {
   FaYoutubeSquare,
   FaWhatsapp,
 } from "react-icons/fa";
-import React from "react";
+
+import { CheckCircleIcon } from "@chakra-ui/icons";
+import React, { useRef } from "react";
 import axios from "axios";
 import * as yup from "yup";
 import { Formik, Form } from "formik";
@@ -46,6 +55,8 @@ export function Footer() {
       .replace(/(-\d{4})(\d+?)$/, "$1");
   };
 
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const cancelRef = useRef(null);
   return (
     <Flex
       direction={["column", "column", "column"]}
@@ -224,6 +235,35 @@ export function Footer() {
             justifyItems="center"
             alignContent="center"
           >
+            <AlertDialog
+              isOpen={isOpen}
+              leastDestructiveRef={cancelRef}
+              onClose={onClose}
+              blockScrollOnMount={true}
+              preserveScrollBarGap={true}
+            >
+              <AlertDialogOverlay />
+              <AlertDialogContent>
+                <AlertDialogCloseButton
+                  _focus={{ border: "none" }}
+                  onClick={onClose}
+                />
+
+                <AlertDialogBody
+                  fontFamily={"JosefinRegular"}
+                  fontSize="1.25rem"
+                  display={"flex"}
+                  justifyContent="center"
+                  alignContent="center"
+                  alignItems={"center"}
+                  justifyItems="center"
+                >
+                  <CheckCircleIcon mr="10px" color="green" />
+                  Seu formulário foi enviado!
+                </AlertDialogBody>
+              </AlertDialogContent>
+            </AlertDialog>
+
             <Text fontSize={"2rem"} fontFamily={"JosefinRegular"}>
               Inscreva-se na lista VIP
             </Text>
@@ -271,6 +311,7 @@ export function Footer() {
                     "https://api.souserac.com/envioEmailSites/api/SendEmail/Send?id=D90FE81E-4347-4E50-922C-E351A25837DE",
                     model
                   );
+                  onOpen();
                 } catch (err) {
                   alert("Erro");
                 }
