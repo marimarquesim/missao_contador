@@ -13,7 +13,6 @@ import {
   AlertDialogBody,
   AlertDialogCloseButton,
   AlertDialogContent,
-  AlertDialogHeader,
   AlertDialogOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
