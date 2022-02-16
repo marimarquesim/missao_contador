@@ -60,7 +60,7 @@ function MyTimer({ expiryTimestamp }) {
 // ate 04/03
 export function Timer() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 1468800); // 10 minutes timer
+  time.setSeconds(time.getSeconds() + 1382400); // 10 minutes timer
 
   return (
     <Box
