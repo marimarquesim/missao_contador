@@ -10,7 +10,7 @@ export function Header() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["915px", "1116px", "1500px", "680px", "680px", "1300px"]}
+      maxH={["1050px", "1120px", "1500px", "690px", "680px", "1300px"]}
       pb={["0%", "15%", "0", "0", "0", "0%"]}
       pt={["2%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_header.svg')"
@@ -25,7 +25,6 @@ export function Header() {
       ]}
     >
       <Box
-        mt="1%"
         w="100%"
         h="100%"
         display="flex"
@@ -67,7 +66,7 @@ export function Header() {
               <Image
                 alt="Logo 00J"
                 src="assets/images/logo.png"
-                w={["500px", "500px", "500px", "500px", "500px", "20vw"]}
+                w={["400px", "400px", "400px", "400px", "400px", "20vw"]}
                 ml={["0", "0", "0", "2%"]}
               />
             </Box>
@@ -115,20 +114,95 @@ export function Header() {
               alignContent="center"
               textAlign="center"
             >
+              <Box mt="20px">
+                <Text fontSize={"1.8rem"} fontFamily={"JosefinBold"}>
+                  Inscreva-se já:
+                </Text>
+              </Box>
+              <Box fontFamily="JosefinMedio" mt="3px">
+                <Button
+                  bg="#ed0a0a"
+                  pt="3%"
+                  as="a"
+                  href="https://link.pagar.me/lBJ3wXGykq"
+                  target="_blank"
+                  h={["50px"]}
+                  w={["150px"]}
+                  _hover={{
+                    backgroundColor: "black",
+                  }}
+                  _focus={{
+                    focus: "none",
+                    border: "none",
+                    backgroundColor: "black",
+                  }}
+                >
+                  <Box
+                    display="flex"
+                    flexDirection="column"
+                    alignItems="center"
+                    alignContent="center"
+                    textAlign="center"
+                  >
+                    <Text fontSize={["1rem"]}>PAGAMENTO</Text>
+
+                    <Text fontSize={["1.5rem"]}>À VISTA</Text>
+                  </Box>
+                </Button>
+
+                <Button
+                  ml="20px"
+                  pt="3%"
+                  bg="#ed0a0a"
+                  as="a"
+                  href="https://link.pagar.me/lH11Hmz1k5"
+                  target="_blank"
+                  h={["50px"]}
+                  w={["150px"]}
+                  _hover={{
+                    backgroundColor: "black",
+                  }}
+                  _focus={{
+                    focus: "none",
+                    border: "none",
+                    backgroundColor: "black",
+                  }}
+                >
+                  <Box
+                    display="flex"
+                    flexDirection="column"
+                    alignItems="center"
+                    alignContent="center"
+                    textAlign="center"
+                  >
+                    <Text fontSize={["1rem"]}>PAGAMENTO</Text>
+
+                    <Text fontSize={["1.3rem"]}>PARCELADO</Text>
+                  </Box>
+                </Button>
+              </Box>
               <Text
                 fontFamily="JosefinMedio"
                 lineHeight={["25px", "25px", "25px", "25px", "25px", "1.4vw"]}
-                w={["310px", "310px", "310px", "310px", "310px", "12vw"]}
-                pt="8%"
+                w={["350px", "350px", "350px", "350px", "350px", "14vw"]}
+                pt="10%"
+                mt={["1px", "1px", "1px", "20px"]}
               >
                 <Text
-                  fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "2.5vw"]}
+                  fontSize={[
+                    "1.5rem",
+                    "1.5rem",
+                    "1.5rem",
+                    "1.5rem",
+                    "1.5rem",
+                    "2vw",
+                  ]}
                   lineHeight={["40px", "40px", "40px", "40px", "40px", "2.2vw"]}
                 >
-                  20 e 21/05
+                  20 e 21/05 São Paulo - SP
                 </Text>
-                <br />
-                <Text
+
+                {/* <Text
                   fontSize={[
                     "1.7rem",
                     "1.7rem",
@@ -140,7 +214,7 @@ export function Header() {
                   mt="-8%"
                 >
                   São Paulo - SP
-                </Text>
+                </Text> */}
                 <Text
                   fontSize={[
                     "1.5rem",
@@ -165,7 +239,7 @@ export function Header() {
             justifyItems="center"
           >
             {" "}
-            <Box mt={["0%", "3%", "1%", "-3%", "-3%", "0.4%"]}>
+            <Box mt={["0%", "3%", "1%", "4%", "-3%", "0.4%"]}>
               <Image
                 alt="Jhonny"
                 src="assets/images/00J.png"
