@@ -70,11 +70,15 @@ export function Header() {
                 ml={["0", "0", "0", "2%"]}
               />
             </Box>
-            <Box w={["auto", "auto", "60%", "60%", "100%"]} mt="2%">
+            <Box
+              w={["auto", "auto", "60%", "60%", "100%"]}
+              mt="2%"
+              textAlign={["center", "center", "center", "left"]}
+            >
               <Text
                 fontFamily="JosefinMedio"
                 fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3.9vw"]}
-                lineHeight={["44px", "44px", "44px", "44px", "44px", "3vw"]}
+                lineHeight={["35px", "35px", "35px", "35px", "35px", "3vw"]}
               >
                 Você é{" "}
                 <Box as="span" fontFamily={"JosefinBold"}>
@@ -124,10 +128,10 @@ export function Header() {
                   bg="#ed0a0a"
                   pt="3%"
                   as="a"
-                  href="https://link.pagar.me/lBJ3wXGykq"
+                  href="/pagamento"
                   target="_blank"
-                  h={["50px"]}
-                  w={["150px"]}
+                  h={["80px"]}
+                  w={["170px"]}
                   _hover={{
                     backgroundColor: "black",
                   }}
@@ -144,40 +148,9 @@ export function Header() {
                     alignContent="center"
                     textAlign="center"
                   >
-                    <Text fontSize={["1rem"]}>PAGAMENTO</Text>
+                    <Text fontSize={["1.5rem"]}>QUERO</Text>
 
-                    <Text fontSize={["1.5rem"]}>À VISTA</Text>
-                  </Box>
-                </Button>
-
-                <Button
-                  ml="20px"
-                  pt="3%"
-                  bg="#ed0a0a"
-                  as="a"
-                  href="https://link.pagar.me/lH11Hmz1k5"
-                  target="_blank"
-                  h={["50px"]}
-                  w={["150px"]}
-                  _hover={{
-                    backgroundColor: "black",
-                  }}
-                  _focus={{
-                    focus: "none",
-                    border: "none",
-                    backgroundColor: "black",
-                  }}
-                >
-                  <Box
-                    display="flex"
-                    flexDirection="column"
-                    alignItems="center"
-                    alignContent="center"
-                    textAlign="center"
-                  >
-                    <Text fontSize={["1rem"]}>PAGAMENTO</Text>
-
-                    <Text fontSize={["1.3rem"]}>PARCELADO</Text>
+                    <Text fontSize={["1.5rem"]}>PARTICIPAR</Text>
                   </Box>
                 </Button>
               </Box>
