@@ -21,6 +21,7 @@ import { Footer } from "../src/components/footer";
 
 import handleViewport from "react-in-viewport";
 import * as gtag from "../lib/gtag";
+import { Depoimentos } from "../src/components/depositions";
 
 const Block = (props) => {
   const { inViewport, forwardedRef, enterCount } = props;
@@ -63,6 +64,7 @@ export default function Home() {
       <PorqueComprar />
       <PublicoAlvo />
       <Conteudo />
+      <Depoimentos />
       <Clientes />
       <Estrutura />
       <ViewportBlock
