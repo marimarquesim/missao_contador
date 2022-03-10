@@ -60,7 +60,7 @@ function MyTimer({ expiryTimestamp }) {
 // ate 21/03
 export function Timer() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 1209600);
+  time.setSeconds(time.getSeconds() + 950400); //14 dias
 
   return (
     <Box
