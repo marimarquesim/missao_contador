@@ -77,8 +77,8 @@ export function Header() {
             >
               <Text
                 fontFamily="JosefinMedio"
-                fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3.9vw"]}
-                lineHeight={["35px", "35px", "35px", "35px", "35px", "3vw"]}
+                fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3.5vw"]}
+                lineHeight={["35px", "35px", "35px", "35px", "35px", "3.7vw"]}
               >
                 Você é{" "}
                 <Box as="span" fontFamily={"JosefinBold"}>
