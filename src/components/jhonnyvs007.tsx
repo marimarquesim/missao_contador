@@ -149,16 +149,23 @@ export function JhonnyVSJ1() {
             </Button>
           </Stack>
 
-          <Stack
+          <Flex
             direction="column"
-            flex="1.5"
+            flex="1"
             display="flex"
             justifyContent="end"
             alignItems={["end", "center", "center", "start"]}
             justifyItems="end"
             alignContent={["end", "center", "center", "start"]}
           >
-            <Box mt={["2%", "3%", "1%", "-3%"]}>
+            <Box
+              mt={["2%", "3%", "1%", "-3%"]}
+              display="flex"
+              justifyContent="end"
+              alignItems={["end", "center", "center", "start"]}
+              justifyItems="end"
+              alignContent={["end", "center", "center", "start"]}
+            >
               <Image
                 alt="Jhonny"
                 src="assets/images/jhonny_00j.png"
@@ -168,8 +175,8 @@ export function JhonnyVSJ1() {
                   "357px",
                   "584px",
                   "600px",
-                  "600px",
-                  "5000px",
+                  "47vw",
+                  "30vw",
                 ]}
                 minW={[
                   "316px",
@@ -182,7 +189,7 @@ export function JhonnyVSJ1() {
                 ]}
               />
             </Box>
-          </Stack>
+          </Flex>
         </Stack>
       </Box>
     </Flex>
