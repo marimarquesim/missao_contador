@@ -118,12 +118,12 @@ export function Header() {
               alignContent="center"
               textAlign="center"
             >
-              <Box mt="20px">
+              {/* <Box mt="20px">
                 <Text fontSize={"1.8rem"} fontFamily={"JosefinBold"}>
                   Inscreva-se já:
                 </Text>
-              </Box>
-              <Box fontFamily="JosefinMedio" mt="3px">
+              </Box> */}
+              {/* <Box fontFamily="JosefinMedio" mt="3px">
                 <Button
                   bg="#ed0a0a"
                   pt="3%"
@@ -153,7 +153,7 @@ export function Header() {
                     <Text fontSize={["1.5rem"]}>PARTICIPAR</Text>
                   </Box>
                 </Button>
-              </Box>
+              </Box> */}
               <Text
                 fontFamily="JosefinMedio"
                 lineHeight={["25px", "25px", "25px", "25px", "25px", "1.4vw"]}
@@ -161,7 +161,7 @@ export function Header() {
                 pt="10%"
                 mt={["1px", "1px", "1px", "20px"]}
               >
-                <Text
+                {/* <Text
                   fontSize={[
                     "1.5rem",
                     "1.5rem",
@@ -173,7 +173,7 @@ export function Header() {
                   lineHeight={["40px", "40px", "40px", "40px", "40px", "2.2vw"]}
                 >
                   20 e 21/05 São Paulo - SP
-                </Text>
+                </Text> */}
 
                 {/* <Text
                   fontSize={[
@@ -188,7 +188,7 @@ export function Header() {
                 >
                   São Paulo - SP
                 </Text> */}
-                <Text
+                {/* <Text
                   fontSize={[
                     "1.5rem",
                     "1.5rem",
@@ -200,7 +200,7 @@ export function Header() {
                   fontFamily="JosefinLight"
                 >
                   (PRESENCIAL)
-                </Text>
+                </Text> */}
               </Text>
             </Box>
           </Flex>

@@ -58,7 +58,13 @@ export function Vagas() {
                 src="assets/images/Lote1Esgotado.svg"
                 w={["180px"]}
               />{" "}
-              <Box
+              <Image
+                mt="10px"
+                alt="Jhonny"
+                src="assets/images/Lote2Esgotado.svg"
+                w={["180px"]}
+              />{" "}
+              {/* <Box
                 display={"flex"}
                 flexDirection="row"
                 lineHeight={"1.8rem"}
@@ -70,7 +76,7 @@ export function Vagas() {
                 <Heading fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}>
                   Lote - 2
                 </Heading>
-              </Box>
+              </Box> */}
               <Heading
                 fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}
                 lineHeight={"1.8rem"}
@@ -116,22 +122,24 @@ export function Vagas() {
               justifyItems={"0"}
               flexDirection="column"
             >
-              <Button
+              {/* Aqui é um botão */}
+              <Box
                 bg="#ed0a0a"
-                pt="3%"
-                as="a"
-                href="https://link.pagar.me/lHkDgH1cz5"
-                target="_blank"
+                // pt="3%"
+                borderRadius={"7px"}
+                // as="a"
+                // href="https://link.pagar.me/lHkDgH1cz5"
+                // target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
-                _hover={{
-                  backgroundColor: "black",
-                }}
-                _focus={{
-                  focus: "none",
-                  border: "none",
-                  backgroundColor: "black",
-                }}
+                //   _hover={{
+                //     backgroundColor: "black",
+                //   }}
+                //   _focus={{
+                //     focus: "none",
+                //     border: "none",
+                //     backgroundColor: "black",
+                //   }}
               >
                 <Box
                   display="flex"
@@ -144,24 +152,25 @@ export function Vagas() {
 
                   <Text fontSize={["2.1rem", "3rem"]}>À VISTA</Text>
                 </Box>
-              </Button>
-
-              <Button
+              </Box>
+              {/* Aqui é um botão */}
+              <Box
+                borderRadius={"7px"}
                 bg="#ed0a0a"
                 mt="8%"
-                as="a"
-                href="https://link.pagar.me/lByfDHycGc"
-                target="_blank"
+                // as="a"
+                // href="https://link.pagar.me/lByfDHycGc"
+                // target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
-                _hover={{
-                  backgroundColor: "black",
-                }}
-                _focus={{
-                  focus: "none",
-                  border: "none",
-                  backgroundColor: "black",
-                }}
+                // _hover={{
+                //   backgroundColor: "black",
+                // }}
+                // _focus={{
+                //   focus: "none",
+                //   border: "none",
+                //   backgroundColor: "black",
+                // }}
               >
                 <Box
                   display="flex"
@@ -169,12 +178,13 @@ export function Vagas() {
                   alignItems="center"
                   alignContent="center"
                   textAlign="center"
+                  mt="8px"
                 >
                   <Text fontSize={["1.3rem", "1.7rem"]}>PAGAMENTO</Text>
 
                   <Text fontSize={["1.7rem", "2.1rem", "2rem"]}>PARCELADO</Text>
                 </Box>
-              </Button>
+              </Box>
             </Box>
           </Stack>
         </Stack>
