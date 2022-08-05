@@ -55,6 +55,7 @@ export function About() {
                 "5.1vw",
               ]}
               fontFamily="JosefinMedio"
+              textAlign={["center", "center", "center", "center"]}
             >
               Quem é Jhonny Martins?
             </Heading>

@@ -6,6 +6,7 @@ import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 import handleViewport from "react-in-viewport";
 import * as gtag from "../lib/gtag";
+import { Pix } from "../src/components/pix";
 
 const Block = (props) => {
   const { inViewport, forwardedRef, enterCount } = props;
@@ -26,7 +27,7 @@ export default function Home() {
       </Head>
 
       <Preco />
-      <Vagas />
+      <Pix />
 
       <WhastsAppButton />
     </Box>

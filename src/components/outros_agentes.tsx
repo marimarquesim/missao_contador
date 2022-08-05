@@ -180,7 +180,11 @@ export function OutrosAgentes() {
             textAlign={["center", "center", "left"]}
           >
             <Box>
-              <Text fontSize={["20px", "20px", "23px"]} lineHeight={"30px"}>
+              <Text
+                fontSize={["17px", "18px", "23px"]}
+                lineHeight={"30px"}
+                mxW="100%"
+              >
                 <Box
                   display={"flex"}
                   flexDirection="column"

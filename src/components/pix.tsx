@@ -9,7 +9,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-export function Vagas() {
+export function Pix() {
   return (
     <Flex
       direction={["column", "column", "column"]}
@@ -54,16 +54,16 @@ export function Vagas() {
               flexDirection="column"
             >
               {/* <Image
-                alt="Jhonny"
-                src="assets/images/Lote1Esgotado.svg"
-                w={["180px"]}
-              />{" "}
-              <Image
-                mt="10px"
-                alt="Jhonny"
-                src="assets/images/Lote2Esgotado.svg"
-                w={["180px"]}
-              />{" "} */}
+                  alt="Jhonny"
+                  src="assets/images/Lote1Esgotado.svg"
+                  w={["180px"]}
+                />{" "}
+                <Image
+                  mt="10px"
+                  alt="Jhonny"
+                  src="assets/images/Lote2Esgotado.svg"
+                  w={["180px"]}
+                />{" "} */}
               <Box
                 display={"flex"}
                 flexDirection="row"
@@ -123,23 +123,13 @@ export function Vagas() {
               flexDirection="column"
             >
               {/* Aqui é um botão */}
-              <Button
+              <Box
                 bg="#ed0a0a"
                 pt="3%"
                 borderRadius={"7px"}
-                as="a"
-                href="/pagamento-a-vista"
                 target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
-                _hover={{
-                  backgroundColor: "black",
-                }}
-                _focus={{
-                  focus: "none",
-                  border: "none",
-                  backgroundColor: "black",
-                }}
               >
                 <Box
                   display="flex"
@@ -152,39 +142,19 @@ export function Vagas() {
 
                   <Text fontSize={["2.1rem", "3rem"]}>À VISTA</Text>
                 </Box>
-              </Button>
-              {/* Aqui é um botão */}
-              <Button
-                borderRadius={"7px"}
-                bg="#ed0a0a"
-                mt="8%"
-                as="a"
-                href="https://link.pagar.me/lHk5vdSojc"
-                target="_blank"
-                h={["80px", "100px"]}
-                w={["200px", "250px"]}
-                _hover={{
-                  backgroundColor: "black",
-                }}
-                _focus={{
-                  focus: "none",
-                  border: "none",
-                  backgroundColor: "black",
-                }}
-              >
-                <Box
-                  display="flex"
-                  flexDirection="column"
-                  alignItems="center"
-                  alignContent="center"
-                  textAlign="center"
-                  mt="8px"
-                >
-                  <Text fontSize={["1.3rem", "1.7rem"]}>PAGAMENTO</Text>
+              </Box>
+            </Box>
 
-                  <Text fontSize={["1.7rem", "2.1rem", "2rem"]}>PARCELADO</Text>
-                </Box>
-              </Button>
+            <Box>
+              <Text
+                fontSize={"1.8rem"}
+                lineHeight="25px"
+                w={["auto", "auto", "auto"]}
+                fontFamily="JosefinBold"
+                pt={["5%", "5%", "5%", "7%"]}
+              >
+                Chave PIX - 32.886.411/0001-12
+              </Text>
             </Box>
           </Stack>
         </Stack>
