@@ -112,7 +112,7 @@ export function OutrosAgentes() {
                 >
                   <Box
                     as="img"
-                    src="assets/images/agente1.jpg"
+                    src="assets/images/agente1.JPG"
                     w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
@@ -173,7 +173,7 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
+            w={["90%"]}
             backgroundColor="rgb(0 , 0, 0, 0.8)"
           >
             <Box>
@@ -186,7 +186,7 @@ export function OutrosAgentes() {
                 >
                   <Box
                     as="img"
-                    src="assets/images/agente3.jpg"
+                    src="assets/images/agente3.JPG"
                     w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
@@ -213,7 +213,7 @@ export function OutrosAgentes() {
             mt={"20px"}
             mb={"20px"}
             mr="30px"
-            w="100%"
+            w={["90%", "90%", "100%"]}
             backgroundColor="rgb(0 , 0, 0, 0.8)"
           >
             <Box>
