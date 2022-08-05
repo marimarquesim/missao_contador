@@ -18,14 +18,14 @@ export function OutrosAgentes() {
         max: 3000,
         min: 1024,
       },
-      items: 2,
+      items: 0.5,
     },
     tablet: {
       breakpoint: {
         max: 1050,
         min: 464,
       },
-      items: 1,
+      items: 0.5,
     },
     mobile: {
       breakpoint: {
@@ -99,21 +99,23 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
+            w={["90%"]}
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="23px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
-                    as="img"
                     src="assets/images/agente1.JPG"
-                    w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
+                    as="img"
+                    // src="assets/images/agente1.JPG"
+                    w={["100%", "100%", "150px", "150px", "150px", "12vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                     Rogério Fameli
@@ -137,21 +139,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
-              <Text fontSize="23px" lineHeight={"30px"}>
+              <Text fontSize="23px" lineHeight={"30px"} maxW="100%">
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente2.png"
-                    w={["150px", "150px", "150px", "150px", "150px", "13vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                     Altair Alves
@@ -175,21 +177,23 @@ export function OutrosAgentes() {
             margin={"20px"}
             w={["90%"]}
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
-              <Text fontSize="23px" lineHeight={"30px"}>
+              <Text fontSize={["20px", "20px", "23px"]} lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
-                    as="img"
                     src="assets/images/agente3.JPG"
-                    w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
+                    as="img"
+                    // src="assets/images/agente3.JPG"
+                    w={["100%", "100%", "150px", "150px", "150px", "12vw"]}
                   />
-                  <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
+                  <Text fontFamily={"JosefinBold"} fontSize={["25px"]} mt="5px">
                     Pedro Nery
                   </Text>
                 </Box>
@@ -210,24 +214,26 @@ export function OutrosAgentes() {
             color={"white"}
             padding={"10px"}
             borderRadius="5px"
-            mt={"20px"}
-            mb={"20px"}
-            mr="30px"
+            mt={["0", "0", "20px"]}
+            mb={["0", "0", "20px"]}
+            mr={["0", "0", "30px"]}
+            margin={["20px", "20px", "0", "0"]}
             w={["90%", "90%", "100%"]}
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="20px" lineHeight={"27px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente4.jpeg"
-                    w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "12vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="25px" mt="5px">
                     Leandro Bueno
@@ -259,21 +265,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="23px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente5.png"
-                    w={["150px", "150px", "150px", "150px", "150px", "13vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="23px" mt="5px">
                     Robson Cavalcanti
@@ -297,21 +303,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="23px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente6.jpg"
-                    w={["150px", "150px", "150px", "150px", "150px", "13vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="23px" mt="5px">
                     Lucas Correa
@@ -330,21 +336,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="20px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente7.jpg"
-                    w={["150px", "150px", "150px", "150px", "150px", "13vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="21px" mt="5px">
                     Anderson Hernandes
@@ -367,21 +373,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="20px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente8.jpg"
-                    w={["150px", "150px", "150px", "150px", "150px", "13vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "13vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="22px" mt="5px">
                     Anderson Souza
@@ -404,21 +410,21 @@ export function OutrosAgentes() {
             padding={"10px"}
             borderRadius="5px"
             margin={"20px"}
-            w="90%"
             backgroundColor="rgb(0 , 0, 0, 0.8)"
+            textAlign={["center", "center", "left"]}
           >
             <Box>
               <Text fontSize="20px" lineHeight={"30px"}>
                 <Box
                   display={"flex"}
                   flexDirection="column"
-                  float={"left"}
+                  float={["none", "none", "left"]}
                   mr="10px"
                 >
                   <Box
                     as="img"
                     src="assets/images/agente9.jpg"
-                    w={["150px", "150px", "150px", "150px", "150px", "12vw"]}
+                    w={["100%", "100%", "150px", "150px", "150px", "12vw"]}
                   />
                   <Text fontFamily={"JosefinBold"} fontSize="23px" mt="5px">
                     Whill Silva
