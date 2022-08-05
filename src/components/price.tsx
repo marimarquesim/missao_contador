@@ -1,4 +1,4 @@
-import { Box, Heading, Flex, Stack, Image } from "@chakra-ui/react";
+import { Box, Heading, Flex, Stack, Image, Text } from "@chakra-ui/react";
 
 export function Preco() {
   return (
@@ -52,14 +52,56 @@ export function Preco() {
             fontSize="24px"
             textAlign={["center", "center", "center", "left"]}
           >
-            <Box>
+            <Box
+              maxW={"100vw"}
+              backgroundColor={"black"}
+              paddingY="15px"
+              paddingX={"35px"}
+              fontFamily="JosefinBold"
+              display={"flex"}
+              flexDirection="column"
+              justifyContent={"center"}
+              justifyItems="center"
+              alignItems={"center"}
+              alignContent="center"
+              textAlign={"center"}
+            >
+              <Text fontSize={"33px"}>VOCÊ E UM ACOMPANHANTE!</Text>
+              <Box>
+                <Text fontSize={["30px", "30px", "60px"]}>
+                  10x{" "}
+                  <Box
+                    as="span"
+                    fontSize={["70px", "70px", "130px"]}
+                    color="red"
+                  >
+                    {" "}
+                    350,00
+                  </Box>
+                </Text>
+              </Box>
+              <Text
+                fontSize={["27px", "27px", "33px"]}
+                fontFamily="JosefinMedio"
+              >
+                Sem juros, parcelado no cartão
+              </Text>
+              <Text
+                fontSize={["27px", "27px", "33px"]}
+                fontFamily="JosefinMedio"
+              >
+                de crédito, ou à vista R$2.900,00!
+              </Text>
+              <Text>(economize R$600,00)</Text>
+            </Box>
+            {/* <Box>
               <Image
                 alt="valor"
                 src="assets/images/preco.svg"
                 w="600px"
                 boxShadow="lg"
               />
-            </Box>
+            </Box> */}
           </Stack>
         </Stack>
       </Box>

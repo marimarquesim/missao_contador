@@ -10,8 +10,8 @@ export function Header() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1050px", "1120px", "1500px", "690px", "680px", "1300px"]}
-      pb={["0%", "15%", "0", "0", "0", "0%"]}
+      maxH={["1750px", "1380px", "1500px", "1700px", "680px", "1300px"]}
+      pb={["3%", "14%", "0", "0", "0", "0%"]}
       pt={["2%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_header.svg')"
       backgroundPosition="center"
@@ -42,7 +42,7 @@ export function Header() {
           justifyItems="center"
           color="white"
           w="100%"
-          direction={["column", "column", "column", "row"]}
+          direction={["column", "column", "column", "column", "row"]}
         >
           <Flex
             w="100%"
@@ -53,7 +53,7 @@ export function Header() {
             justifyItems="center"
             direction={"column"}
             pb={["0", "0", "0", "0", "0", "2%"]}
-            ml={["0", "0", "0", "0", "8%", "10%"]}
+            ml={["0", "0", "0", "0", "8%", "2%"]}
           >
             {" "}
             <Box
@@ -71,25 +71,23 @@ export function Header() {
               />
             </Box>
             <Box
-              w={["auto", "auto", "60%", "60%", "100%"]}
+              w={["auto", "auto", "60%", "83%", "100%"]}
               mt="2%"
               textAlign={["center", "center", "center", "left"]}
             >
               <Text
                 fontFamily="JosefinMedio"
-                fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3.5vw"]}
-                lineHeight={["35px", "35px", "35px", "35px", "35px", "3.7vw"]}
+                fontSize={["2rem", "2rem", "2rem", "2rem", "2rem", "2.5rem"]}
+                lineHeight={["35px", "35px", "35px", "35px", "30px", "3vw"]}
               >
                 Você é{" "}
                 <Box as="span" fontFamily={"JosefinBold"}>
                   {" "}
                   contador{" "}
                 </Box>
-                e precisa aumentar
-                <Box as="span" fontFamily={"JosefinBold"}>
-                  {" "}
-                  seu faturamento?
-                </Box>
+                e gostaria de aprender como aumentar o seu faturamento, investir
+                em marketing digital, fazer a melhor gestão de pessoas e
+                processos e ainda inovar com a tecnologia?
               </Text>
               <Text
                 fontSize={[
@@ -125,23 +123,23 @@ export function Header() {
               </Box>
               <Box fontFamily="JosefinMedio" mt="3px">
                 {/* aqui é um botão */}
-                <Box
-                  bg="#ed0a0a"
+                <Button
+                  backgroundColor="#ed0a0a"
                   pt="3%"
                   borderRadius={"7px"}
-                  // as="a"
-                  // href="/pagamento"
-                  // target="_blank"
+                  as="a"
+                  href="/pagamento"
+                  target="_blank"
                   h={["80px"]}
                   w={["170px"]}
-                  // _hover={{
-                  //   backgroundColor: "black",
-                  // }}
-                  // _focus={{
-                  //   focus: "none",
-                  //   border: "none",
-                  //   backgroundColor: "black",
-                  // }}
+                  _hover={{
+                    backgroundColor: "black",
+                  }}
+                  _focus={{
+                    focus: "none",
+                    border: "none",
+                    backgroundColor: "black",
+                  }}
                 >
                   <Box
                     display="flex"
@@ -154,14 +152,14 @@ export function Header() {
 
                     <Text fontSize={["1.5rem"]}>PARTICIPAR</Text>
                   </Box>
-                </Box>
+                </Button>
               </Box>
               <Text
                 fontFamily="JosefinMedio"
                 lineHeight={["25px", "25px", "25px", "25px", "25px", "1.4vw"]}
                 w={["350px", "350px", "350px", "350px", "350px", "14vw"]}
                 pt="10%"
-                mt={["1px", "1px", "1px", "20px"]}
+                mt={["1px", "1px", "1px", "0px"]}
               >
                 <Text
                   fontSize={[
@@ -172,24 +170,10 @@ export function Header() {
                     "1.5rem",
                     "2vw",
                   ]}
-                  lineHeight={["40px", "40px", "40px", "40px", "40px", "2.2vw"]}
+                  lineHeight={["40px", "40px", "40px", "40px", "35px", "2.2vw"]}
                 >
-                  20 e 21/05 <br /> São Paulo - SP
+                  06, 07 e 08/10 <br /> São Paulo - SP
                 </Text>
-
-                {/* <Text
-                  fontSize={[
-                    "1.7rem",
-                    "1.7rem",
-                    "1.7rem",
-                    "1.7rem",
-                    "1.7rem",
-                    "1.1vw",
-                  ]}
-                  mt="-8%"
-                >
-                  São Paulo - SP
-                </Text> */}
                 <Text
                   fontSize={[
                     "1.5rem",
@@ -214,7 +198,7 @@ export function Header() {
             justifyItems="center"
           >
             {" "}
-            <Box mt={["0%", "3%", "1%", "4%", "-3%", "0.4%"]}>
+            <Box mt={["0%", "3%", "1%", "4%", "7%", "10%"]}>
               <Image
                 alt="Jhonny"
                 src="assets/images/00J.png"

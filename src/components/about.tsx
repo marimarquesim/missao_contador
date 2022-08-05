@@ -54,8 +54,9 @@ export function About() {
                 "3.5rem",
                 "5.1vw",
               ]}
+              fontFamily="JosefinMedio"
             >
-              Jhonny Martins
+              Quem é Jhonny Martins?
             </Heading>
 
             <Text
@@ -105,10 +106,10 @@ export function About() {
               lineHeight={["20px", "20px", "20px", "20px", "20px", "2vw"]}
             >
               Jhonny Martins é atualmente vice-presidente do SERAC, CEO das
-              empresas O MEU MEI, TEC PAD e IRRV e apresentador do canal do
-              YouTube SERACROLA. É o parceiro estratégico de grandes empresários
-              e personalidades da mídia, direcionando o crescimento sustentável
-              de diversos o negócios.
+              empresas O MEU MEI e IRRV e apresentador do canal do YouTube
+              SERACROLA. É o parceiro estratégico de grandes empresários e
+              personalidades da mídia, direcionando o crescimento sustentável de
+              diversos o negócios.
             </Text>
 
             <Text

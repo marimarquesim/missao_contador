@@ -39,7 +39,7 @@ export function PorqueComprar() {
           fontSize={["2.8rem", "2.8rem", "3.5rem", "3.5rem", "3.1vw"]}
           w={["300px", "auto", "700px", "800px", "90vw"]}
         >
-          POR QUE FAZER PARTE DA MISSÃO CONTADOR
+          Por quê fazer parte do Missão Contador?
         </Heading>
       </Box>
 

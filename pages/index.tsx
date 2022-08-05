@@ -23,6 +23,7 @@ import handleViewport from "react-in-viewport";
 import * as gtag from "../lib/gtag";
 import { Depoimentos } from "../src/components/depositions";
 import { Promotion } from "../src/components/promotion";
+import { OutrosAgentes } from "../src/components/outros_agentes";
 
 const Block = (props) => {
   const { inViewport, forwardedRef, enterCount } = props;
@@ -59,17 +60,18 @@ export default function Home() {
       <Timer />
       <Header />
       <Promotion />
-      <Bonus />
+      {/* <Bonus /> */}
       <Video />
 
       <JhonnyVSJ1 />
       <About />
       <PorqueComprar />
       <PublicoAlvo />
+      <OutrosAgentes />
       <Conteudo />
       <Depoimentos />
       <Clientes />
-      <Estrutura />
+      {/* <Estrutura /> */}
       <ViewportBlock
         onEnterViewport={() => console.log("enter")}
         onLeaveViewport={() => console.log("leave")}
@@ -79,25 +81,5 @@ export default function Home() {
       <Footer />
       <WhastsAppButton />
     </Box>
-
-    // <Box w="100%"
-    //   h="100vh"
-    //   display='flex'
-    //   justifyContent='center'
-    //   justifyItems='center'
-    //   alignContent='center'
-    //   alignItems='center'
-    //   backgroundImage="url('assets/images/bg_icons.svg')"
-    //   backgroundSize="cover"
-    //   backgroundAttachment={['initial', 'initial', 'initial', 'inherit', "fixed"]}
-    //   backgroundRepeat="no-repeat"
-    // >
-    //   <meta name="theme-color" content="#000000" />
-    //   <title>Missão Contador</title>
-    //   <Text fontSize="5rem" color='white' fontFamily='JosefinBold' >
-    //     Estamos em manutenção
-    //   </Text>
-
-    // </Box>
   );
 }

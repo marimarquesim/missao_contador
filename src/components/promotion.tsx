@@ -55,7 +55,20 @@ export function Promotion() {
             justifyContent="center"
             justifyItems="center"
           >
-            <List fontSize="2.3rem" fontFamily={"JosefinBold"}>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"}>
+              Qual é o seu maior desafio? <br />
+              Conquistar e vender para mais clientes?
+              <br /> Sair do operacional e ter tempo para a estratégia do seu
+              negócio? <br />
+              Como contratar e fazer a gestão de times de alta performance?
+              <br /> Como implantar uma cultura proativa com seu time?
+              <br />
+              Como implantar processos eficazes na sua empresa?
+              <br /> Como inovar com a tecnologia?
+              <br /> Como investir em marketing digital com estratégia efetiva e
+              retorno garantido?
+            </Text>
+            {/* <List fontSize="2.3rem" fontFamily={"JosefinBold"}>
               <ListItem lineHeight={"2.6rem"}>
                 <ListIcon as={BiRightArrow} color="white" />
                 As habilidades mais valiosas da gestão de negócios.
@@ -68,7 +81,7 @@ export function Promotion() {
                 <ListIcon as={BiRightArrow} color="white" />
                 Como colocar seu negócio no próximo nível.
               </ListItem>
-            </List>
+            </List> */}
           </Flex>
           <Flex
             flex={1}

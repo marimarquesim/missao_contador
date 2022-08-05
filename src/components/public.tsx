@@ -1,4 +1,14 @@
-import { Box, Heading, Text, Flex, Stack } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Text,
+  Flex,
+  Stack,
+  List,
+  ListItem,
+  ListIcon,
+  UnorderedList,
+} from "@chakra-ui/react";
 
 export function PublicoAlvo() {
   return (
@@ -42,28 +52,49 @@ export function PublicoAlvo() {
               lineHeight={["30px", "30px", "30px", "30px", "30px", "3vw"]}
               mb="2%"
             >
-              A quem se destina
+              A quem se destina?
             </Heading>
             <Text
               w={["80%", "80%", "80%", "65%"]}
               fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "2vw",
+                "1.5rem",
+                "1.5rem",
+                "1.5rem",
+                "1.5rem",
+                "1.5rem",
+                "1.5vw",
               ]}
               lineHeight={["25px", "25px", "25px", "25px", "25px", "2.5vw"]}
               fontFamily="JosefinRegular"
+              textAlign={"left"}
             >
-              Para a participação desta imersão, procuramos pessoas que já
-              possuem escritórios de contabilidade (não importa o tamanho),
-              profissionais do ramo que queiram empreender, jovens que queiram
-              ingressar no mercado contábil, jovens que estejam em processo de
-              sucessão para assumir escritório contábil ou pessoas que atuem em
-              mercado tradicional como o nosso, pois esse conhecimento é
-              aplicável para todos aqui abordados.
+              <UnorderedList
+                fontSize="1.7rem"
+                fontFamily={"JosefinRegular"}
+                mt="10px"
+              >
+                <ListItem lineHeight={"2.3rem"}>
+                  Contadores que queiram ir para o próximo nível;
+                </ListItem>
+                <ListItem lineHeight={"2.3rem"} mt="10px">
+                  Contadores que já possuem escritórios de contabilidade (não
+                  importa o tamanho ou nicho);
+                </ListItem>
+                <ListItem lineHeight={"2.3rem"} mt="10px">
+                  Profissionais do ramo que queiram empreender;
+                </ListItem>
+                <ListItem lineHeight={"2.3rem"} mt="10px">
+                  Jovens que queiram ingressar no mercado contábil ou estão em
+                  processo de sucessão familiar;
+                </ListItem>
+                <ListItem lineHeight={"2.3rem"} mt="10px">
+                  Profissionais do mercado tradicional que queiram entender mais
+                  de gestão de negócios (exemplos: advogados, médicos,
+                  engenheiros, corretores de seguros, etc).
+                </ListItem>
+              </UnorderedList>
+              Obs: Conhecimento, técnicas e ferramentas aplicáveis para todos os
+              perfis acima.
             </Text>
           </Stack>
         </Stack>

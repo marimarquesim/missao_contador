@@ -6,6 +6,7 @@ import {
   Stack,
   Image,
   Button,
+  AspectRatio,
 } from "@chakra-ui/react";
 
 export function JhonnyVSJ1() {
@@ -19,19 +20,13 @@ export function JhonnyVSJ1() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1148px", "922px", "1000px", "680px", "112vh"]}
+      maxH={["1448px", "922px", "1000px", "1341px", "160vh"]}
       pb={["0%", "15%", "0"]}
       pt={["5%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_jhonny00j.svg')"
       backgroundPosition="center"
       backgroundSize="cover"
-      backgroundAttachment={[
-        "initial",
-        "initial",
-        "initial",
-        "inherit",
-        "fixed",
-      ]}
+      backgroundAttachment={["initial", "initial", "initial", "left", "fixed"]}
     >
       <Box mt="1%" w="100%" h="100%" display="flex" flexDirection="column">
         <Stack
@@ -39,7 +34,7 @@ export function JhonnyVSJ1() {
           h="100%"
           color="white"
           display="flex"
-          direction={["column", "column", "column", "row"]}
+          direction={["column", "column", "column", "column", "row"]}
           paddingX="5%"
         >
           <Stack
@@ -107,46 +102,63 @@ export function JhonnyVSJ1() {
                 O renomado agente secreto 00J encara uma das missões mais
                 desafiadoras de sua vida.
               </Text>
-              <Text mt="2%">
+              <Text mt="1%">
                 Em Missão Contador, 00J precisa localizar e impedir que Jhonny
                 Contador revele seus segredos de gestão de negócios que fizeram
                 com que sua empresa crescesse mais de 1.200% nos últimos anos.
               </Text>
-              <Text mt="2%">
+              <Text mt="1%">
                 Jhonny na figura de 00J representa o que ocorreu com sua empresa
                 desde o início de sua jornada até os dias atuais.
               </Text>
-              <Text mt="2%">
+              <Text mt="1%">
                 Já o Jhonny Contador percebeu que a maior forma de multiplicar é
                 dividindo conhecimento e decidiu colocar tudo o que aprendeu ao
                 longo de 20 anos de experiência nessa imersão podendo você ter
                 acesso à esses segredos.
               </Text>
             </Box>
-            <Button
-              textAlign={"center"}
-              as="a"
-              href="https://www.youtube.com/watch?v=psypPGAXAv0"
-              target="_blank"
-              fontFamily="Skyfall"
-              bgColor="white"
-              color="black"
-              fontSize={["2rem", "2rem", "2rem", "2rem", "2rem", "1.7vw"]}
-              lineHeight={["35px", "35px", "35px", "35px", "35px", "2vw"]}
-              paddingX="2%"
-              h={["80px", "80px", "80px", "80px", "80px", "5vw"]}
-              mt="2%"
-              _hover={{ backgroundColor: "#ed0a0a" }}
-              _focus={{
-                focus: "none",
-                border: "none",
-                backgroundColor: "#ed0a0a",
-              }}
+            <Box
+              mt="0%"
+              w="100%"
+              h="100%"
+              display="flex"
+              flexDirection="column"
             >
-              ASSISTA
-              <br />
-              AO VIDEO
-            </Button>
+              <Stack
+                spacing={1}
+                h="100%"
+                color="white"
+                display="flex"
+                direction={["column", "column", "column", "row"]}
+                paddingX="4%"
+              >
+                <Stack
+                  direction="column"
+                  flex="1"
+                  paddingX={["2%", "0", "5%", "5%"]}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  justifyItems="center"
+                  alignContent="center"
+                  textAlign={["center", "center", "center", "left"]}
+                >
+                  <AspectRatio
+                    w={["320px", "320px", "320px", "560px", "33vw"]}
+                    h={["200px", "200px", "200px", "310px", "15.9vw"]}
+                    ratio={1}
+                  >
+                    <iframe
+                      src="https://www.youtube.com/embed/psypPGAXAv0"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    />
+                  </AspectRatio>
+                </Stack>
+              </Stack>
+            </Box>
           </Stack>
 
           <Flex
@@ -154,17 +166,17 @@ export function JhonnyVSJ1() {
             flex="1"
             display="flex"
             justifyContent="end"
-            alignItems={["end", "center", "center", "start"]}
+            alignItems={["end", "center", "center", "center", "start"]}
             justifyItems="end"
-            alignContent={["end", "center", "center", "start"]}
+            alignContent={["end", "center", "center", "center", "start"]}
           >
             <Box
-              mt={["2%", "3%", "1%", "-3%"]}
+              mt={["2%", "3%", "1%", "1%", "-4%"]}
               display="flex"
               justifyContent="end"
-              alignItems={["end", "center", "center", "start"]}
+              alignItems={["end", "center", "center", "center", "start"]}
               justifyItems="end"
-              alignContent={["end", "center", "center", "start"]}
+              alignContent={["end", "center", "center", "center", "start"]}
             >
               <Image
                 alt="Jhonny"
