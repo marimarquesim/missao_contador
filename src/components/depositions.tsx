@@ -50,7 +50,6 @@ export function Depoimentos() {
           Depoimentos
         </Heading>
       </Box>
-
       <Box>
         <Box
           as="blockquote"
@@ -292,7 +291,7 @@ export function Depoimentos() {
             </Text>
           </Box>
         </Box>{" "}
-        <script async src="//www.instagram.com/embed.js"></script>
+        <script async src={`//www.instagram.com/embed.js`}></script>
         {/* <SimpleGrid
           flex="1"
           spacingX="40px"

@@ -69,7 +69,7 @@ export default function Home() {
       <PublicoAlvo />
       <OutrosAgentes />
       <Conteudo />
-      <Depoimentos />
+      {/* <Depoimentos /> */}
       <Clientes />
       {/* <Estrutura /> */}
       {/* <ViewportBlock
