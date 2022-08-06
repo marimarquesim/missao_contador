@@ -10,7 +10,7 @@ export function Header() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1750px", "1380px", "1500px", "1700px", "680px", "1300px"]}
+      maxH={["1750px", "1380px", "1500px", "1750px", "750px", "1300px"]}
       pb={["3%", "14%", "0", "0", "0", "0%"]}
       pt={["2%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_header.svg')"
@@ -77,8 +77,8 @@ export function Header() {
             >
               <Text
                 fontFamily="JosefinMedio"
-                fontSize={["2rem", "2rem", "2rem", "2rem", "2rem", "2.5rem"]}
-                lineHeight={["35px", "35px", "35px", "35px", "30px", "3vw"]}
+                fontSize={["2rem", "2rem", "2rem", "2rem", "1.8rem", "2.5rem"]}
+                lineHeight={["35px", "35px", "35px", "35px", "38px", "3vw"]}
               >
                 Você é{" "}
                 <Box as="span" fontFamily={"JosefinBold"}>
@@ -198,7 +198,7 @@ export function Header() {
             justifyItems="center"
           >
             {" "}
-            <Box mt={["0%", "3%", "1%", "4%", "7%", "10%"]}>
+            <Box mt={["0%", "3%", "1%", "4%", "15%", "10%"]}>
               <Image
                 alt="Jhonny"
                 src="assets/images/00J.png"

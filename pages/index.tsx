@@ -72,10 +72,10 @@ export default function Home() {
       <Depoimentos />
       <Clientes />
       {/* <Estrutura /> */}
-      <ViewportBlock
+      {/* <ViewportBlock
         onEnterViewport={() => console.log("enter")}
         onLeaveViewport={() => console.log("leave")}
-      />
+      /> */}
       <Preco />
       <Vagas />
       <Footer />

@@ -66,7 +66,6 @@ export function Preco() {
               alignContent="center"
               textAlign={"center"}
             >
-              <Text fontSize={"33px"}>VOCÊ E UM ACOMPANHANTE!</Text>
               <Box>
                 <Text fontSize={["30px", "30px", "60px"]}>
                   10x{" "}
@@ -84,13 +83,13 @@ export function Preco() {
                 fontSize={["27px", "27px", "33px"]}
                 fontFamily="JosefinMedio"
               >
-                Sem juros, parcelado no cartão
+                por pessoa,
               </Text>
               <Text
                 fontSize={["27px", "27px", "33px"]}
                 fontFamily="JosefinMedio"
               >
-                de crédito, ou à vista R$2.900,00!
+                ou R$2.900,00 à vista!
               </Text>
               <Text>(economize R$600,00)</Text>
             </Box>

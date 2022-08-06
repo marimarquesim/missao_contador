@@ -196,6 +196,323 @@ export function Clientes() {
           slidesToSlide={1}
         >
           <Box
+            m="20px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/MARTINS.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.8vw",
+              ]}
+            >
+              José Carlos Martins
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Presidente
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1rem",
+              ]}
+            >
+              Advogado com especialização em Direito do Trabalho graduado pela
+              Pontifícia Universidade Católica de São Paulo (PUC-SP),
+              Contabilista e Economista.
+            </Text>
+          </Box>
+
+          <Box
+            m="20px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/CARLA.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Carla Martins
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Vice-Presidente
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1rem",
+              ]}
+            >
+              Graduada em Propaganda e Marketing pela Escola Superior de
+              Propaganda e Marketing (ESPM), pós-graduada em Big Data e
+              Marketing pela Universidade Anhembi Morumbi e Contabilista.
+            </Text>
+          </Box>
+          <Box
+            m="20px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/THIAGO.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Thiago Herance
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Diretor Executivo
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1rem",
+              ]}
+            >
+              Advogado e Administrador graduado pela Universidade Paulista
+              (UNIP) e Contabilista. MBA Executivo em Direito: Gestão e Business
+              Law
+            </Text>
+          </Box>
+          <Box
+            m="20px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/MARCELO.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Marcelo Lunetta
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Gerente TI
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1rem",
+              ]}
+            >
+              Graduado em Administração com ênfase em Logística pelo Centro
+              Universitário das Faculdades Metropolitanas Unidas (FMU).
+            </Text>
+          </Box>
+          <Box
+            m="20px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/VINICIUS.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Vinicius Loprete
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+              textAlign="center"
+            >
+              Gerente Projetos e Qualidade
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1rem",
+              ]}
+            >
+              Graduado em Administração de Empresas pela Pontifícia Universidade
+              Católica de São Paulo (PUC-SP) e graduando em MBA de Business
+              Process pela Fundação Getúlio Vargas (FGV-SP).
+            </Text>
+          </Box>
+        </Carousel>
+      </Box>
+
+      <Box mr="10%" ml="10%" display="grid" mt="5%">
+        <Box justifyContent="center" alignItems="center" display="flex">
+          <Heading textAlign="center" color="transparent" fontSize="0.01rem">
+            .aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          </Heading>
+        </Box>
+
+        <Carousel
+          focusOnSelect={true}
+          centerMode={true}
+          infinite={true}
+          responsive={responsive}
+          keyBoardControl={true}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          afterChange={function (previousSlide, _ref) {}}
+          slidesToSlide={1}
+        >
+          <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -224,6 +541,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -252,6 +570,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -280,6 +599,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -308,6 +628,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -336,6 +657,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -364,6 +686,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -392,6 +715,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -420,6 +744,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -448,6 +773,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -476,6 +802,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -504,6 +831,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -532,6 +860,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -560,6 +889,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -588,6 +918,7 @@ export function Clientes() {
           </Box>
 
           <Box
+            m="20px"
             display="flex"
             flexDirection="column"
             justifyItems="center"

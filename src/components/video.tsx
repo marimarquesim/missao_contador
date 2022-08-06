@@ -47,8 +47,8 @@ export function Video() {
           fontSize={["2.2rem", "2.2rem", "2.5rem", "2.5rem", "2.5vw"]}
           w={["300px", "auto", "700px", "800px", "80vw"]}
         >
-          Aprenda com o SERAC, uma das grandes contabilidades do Brasil,
-          responsável por assessorar grandes personalidades e empresas.
+          Aprenda com o SERAC, uma das grandes referências em contabilidade do
+          Brasil, responsável por assessorar grandes personalidades e empresas.
         </Heading>
       </Box>
 
