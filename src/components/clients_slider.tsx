@@ -25,14 +25,14 @@ export function Clientes() {
         max: 1050,
         min: 464,
       },
-      items: 1,
+      items: 0.5,
     },
     mobile: {
       breakpoint: {
         max: 464,
         min: 0,
       },
-      items: 0.5,
+      items: 1,
     },
   };
 
@@ -178,7 +178,12 @@ export function Clientes() {
         </Carousel>
       </Box>
 
-      <Box mr="10%" ml="10%" display="grid" mt="5%">
+      <Box
+        mr={["5%", "5%", "10%"]}
+        ml={["5%", "5%", "10%"]}
+        display="grid"
+        mt="5%"
+      >
         <Box justifyContent="center" alignItems="center" display="flex">
           <Heading textAlign="center" color="transparent" fontSize="0.01rem">
             .aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -196,7 +201,7 @@ export function Clientes() {
           slidesToSlide={1}
         >
           <Box
-            m="20px"
+            m="10px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -207,15 +212,16 @@ export function Clientes() {
             <Box
               rounded="full"
               as="img"
-              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
-              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              w={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "250px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/MARTINS.JPG"
             />
             <Text
+              textAlign={"center"}
               fontFamily={"JosefinBold"}
               color="white"
               fontSize={[
-                "1.2rem",
+                "1rem",
                 "1.2rem",
                 "1.2rem",
                 "1.2rem",
@@ -228,8 +234,8 @@ export function Clientes() {
             <Text
               color="white"
               fontSize={[
-                "1.2rem",
-                "1.2rem",
+                "1rem",
+                "1rem",
                 "1.2rem",
                 "1.2rem",
                 "1.2rem",
@@ -240,14 +246,8 @@ export function Clientes() {
             </Text>
             <Text
               color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1rem",
-              ]}
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
             >
               Advogado com especialização em Direito do Trabalho graduado pela
               Pontifícia Universidade Católica de São Paulo (PUC-SP),
@@ -256,7 +256,7 @@ export function Clientes() {
           </Box>
 
           <Box
-            m="20px"
+            m="10px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -267,8 +267,8 @@ export function Clientes() {
             <Box
               rounded="full"
               as="img"
-              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
-              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              w={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "250px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/CARLA.JPG"
             />
             <Text
@@ -300,14 +300,8 @@ export function Clientes() {
             </Text>
             <Text
               color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1rem",
-              ]}
+              textAlign={"center"}
+              fontSize={["16px", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
             >
               Graduada em Propaganda e Marketing pela Escola Superior de
               Propaganda e Marketing (ESPM), pós-graduada em Big Data e
@@ -315,7 +309,7 @@ export function Clientes() {
             </Text>
           </Box>
           <Box
-            m="20px"
+            m="10px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -326,8 +320,8 @@ export function Clientes() {
             <Box
               rounded="full"
               as="img"
-              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
-              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/THIAGO.JPG"
             />
             <Text
@@ -359,14 +353,8 @@ export function Clientes() {
             </Text>
             <Text
               color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1rem",
-              ]}
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
             >
               Advogado e Administrador graduado pela Universidade Paulista
               (UNIP) e Contabilista. MBA Executivo em Direito: Gestão e Business
@@ -374,7 +362,7 @@ export function Clientes() {
             </Text>
           </Box>
           <Box
-            m="20px"
+            m="10px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -385,11 +373,12 @@ export function Clientes() {
             <Box
               rounded="full"
               as="img"
-              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
-              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/MARCELO.JPG"
             />
             <Text
+            textAlign={'center'}
               fontFamily={"JosefinBold"}
               color="white"
               fontSize={[
@@ -418,21 +407,15 @@ export function Clientes() {
             </Text>
             <Text
               color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1rem",
-              ]}
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
             >
               Graduado em Administração com ênfase em Logística pelo Centro
               Universitário das Faculdades Metropolitanas Unidas (FMU).
             </Text>
           </Box>
           <Box
-            m="20px"
+            m="10px"
             display="flex"
             flexDirection="column"
             justifyItems="center"
@@ -443,8 +426,8 @@ export function Clientes() {
             <Box
               rounded="full"
               as="img"
-              w={["250px", "250px", "250px", "250px", "250px", "13vw"]}
-              h={["250px", "250px", "250px", "250px", "250px", "13vw"]}
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
               src="assets/images/VINICIUS.JPG"
             />
             <Text
@@ -477,14 +460,8 @@ export function Clientes() {
             </Text>
             <Text
               color="white"
-              fontSize={[
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1.2rem",
-                "1rem",
-              ]}
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
             >
               Graduado em Administração de Empresas pela Pontifícia Universidade
               Católica de São Paulo (PUC-SP) e graduando em MBA de Business
