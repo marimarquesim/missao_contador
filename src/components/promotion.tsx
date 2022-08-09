@@ -60,9 +60,7 @@ export function Promotion() {
             <Text fontSize="1.5rem" fontFamily={"JosefinRegular"}>
               Qual é o seu maior desafio?
             </Text>
-            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
-              Qual é o seu maior desafio?
-            </Text>
+
             <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
               Conquistar e vender para mais clientes?
             </Text>

@@ -57,10 +57,308 @@ export function OutrosAgentes() {
       justifyItems="center"
       flexDirection="column"
       pb="5%"
-      pt="5%"
+      pt={["5%", "5%", "1%"]}
       minH={["60vh", "100vh", "600px", "600px", "100vh", "50vh"]}
     >
-      <Box mr="10%" ml="10%" display="grid" mt="1%">
+      <Box
+        mr={["5%", "5%", "10%"]}
+        ml={["5%", "5%", "10%"]}
+        display="grid"
+        mt="3%"
+      >
+        <Heading
+          fontFamily={"JosefinBold"}
+          textAlign="center"
+          color="white"
+          fontSize={["2rem", "2rem", "2rem", "2rem", "2.5rem", "3vw"]}
+          lineHeight={["30px", "30px", "30px", "30px", "30px", "3vw"]}
+          mb="15px"
+        >
+          MENTORES
+        </Heading>
+
+        <Carousel
+          focusOnSelect={true}
+          centerMode={true}
+          infinite={true}
+          responsive={responsive}
+          keyBoardControl={true}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          afterChange={function (previousSlide, _ref) {}}
+          slidesToSlide={1}
+        >
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/MARTINS.JPG"
+            />
+            <Text
+              textAlign={"center"}
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.8vw",
+              ]}
+            >
+              José Carlos Martins
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1rem",
+                "1rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Presidente
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Advogado com especialização em Direito do Trabalho graduado pela
+              Pontifícia Universidade Católica de São Paulo (PUC-SP),
+              Contabilista e Economista.
+            </Text>
+          </Box>
+
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/CARLA.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Carla Martins
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Vice-Presidente
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["16px", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Graduada em Propaganda e Marketing pela Escola Superior de
+              Propaganda e Marketing (ESPM), pós-graduada em Big Data e
+              Marketing pela Universidade Anhembi Morumbi e Contabilista.
+            </Text>
+          </Box>
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/THIAGO.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Thiago Herance
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Diretor Executivo
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Advogado e Administrador graduado pela Universidade Paulista
+              (UNIP) e Contabilista. MBA Executivo em Direito: Gestão e Business
+              Law
+            </Text>
+          </Box>
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/MARCELO.JPG"
+            />
+            <Text
+              textAlign={"center"}
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Marcelo Lunetta
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Gerente TI
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Graduado em Administração com ênfase em Logística pelo Centro
+              Universitário das Faculdades Metropolitanas Unidas (FMU).
+            </Text>
+          </Box>
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/VINICIUS.JPG"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Vinicius Loprete
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+              textAlign="center"
+            >
+              Gerente Projetos e Qualidade
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Graduado em Administração de Empresas pela Pontifícia Universidade
+              Católica de São Paulo (PUC-SP) e graduando em MBA de Business
+              Process pela Fundação Getúlio Vargas (FGV-SP).
+            </Text>
+          </Box>
+        </Carousel>
+      </Box>
+
+      <Box mr="10%" ml="10%" display="grid" mt="3%">
         <Box
           alignContent="center"
           justifyContent="center"
@@ -93,7 +391,8 @@ export function OutrosAgentes() {
           slidesToSlide={1}
         >
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -128,7 +427,8 @@ export function OutrosAgentes() {
           </Box>
 
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -162,7 +462,8 @@ export function OutrosAgentes() {
             </Box>
           </Box>
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -196,7 +497,8 @@ export function OutrosAgentes() {
             </Box>
           </Box>
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -230,7 +532,8 @@ export function OutrosAgentes() {
             </Box>
           </Box>
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -264,7 +567,8 @@ export function OutrosAgentes() {
             </Box>
           </Box>
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -298,7 +602,8 @@ export function OutrosAgentes() {
             </Box>
           </Box>
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -333,7 +638,8 @@ export function OutrosAgentes() {
           </Box>
 
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
@@ -368,7 +674,8 @@ export function OutrosAgentes() {
           </Box>
 
           <Box
-            margin={"20px"}
+            marginLeft={"20px"}
+            marginRight={"20px"}
             display={"flex"}
             flexDirection="column"
             color={"white"}
