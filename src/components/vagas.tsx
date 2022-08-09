@@ -93,6 +93,22 @@ export function Vagas() {
                 Não perca a oportunidade de descobrir os segredos de um dos
                 melhores contadores do país.
               </Text>
+              <Text
+                lineHeight="30px"
+                w={["auto", "auto", "auto", "590px"]}
+                pt={["30px"]}
+              >
+                <Box as="span" fontFamily={"JosefinBold"}>
+                  {" "}
+                  Local do evento:
+                </Box>
+                <br />
+                Espaço APAS
+                <br />
+                R. Pio XI, 1200 - Alto da Lapa, São Paulo - SP
+                <br />
+                CEP: 05060-001
+              </Text>
             </Box>
           </Stack>
 

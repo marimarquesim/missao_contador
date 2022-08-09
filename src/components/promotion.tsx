@@ -22,7 +22,7 @@ export function Promotion() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1050px", "1120px", "1500px", "690px", "680px", "1300px"]}
+      maxH={["1102px", "1120px", "1500px", "690px", "680px", "1300px"]}
       pb={["0%", "15%", "0.1%"]}
       pt={["2%", "15%", "3%", "2%"]}
       backgroundColor="black"
@@ -48,40 +48,43 @@ export function Promotion() {
           direction={["column", "column", "column", "row"]}
         >
           <Flex
+            textAlign={"left"}
+            direction={"column"}
             w="100%"
             flex={1}
-            alignItems="center"
-            alignContent="center"
-            justifyContent="center"
-            justifyItems="center"
+            alignItems="left"
+            alignContent="left"
+            justifyContent="left"
+            justifyItems="left"
           >
             <Text fontSize="1.5rem" fontFamily={"JosefinRegular"}>
-              Qual é o seu maior desafio? <br />
-              Conquistar e vender para mais clientes?
-              <br /> Sair do operacional e ter tempo para a estratégia do seu
-              negócio? <br />
-              Como contratar e fazer a gestão de times de alta performance?
-              <br /> Como implantar uma cultura proativa com seu time?
-              <br />
-              Como implantar processos eficazes na sua empresa?
-              <br /> Como inovar com a tecnologia?
-              <br /> Como investir em marketing digital com estratégia efetiva e
-              retorno garantido?
+              Qual é o seu maior desafio?
             </Text>
-            {/* <List fontSize="2.3rem" fontFamily={"JosefinBold"}>
-              <ListItem lineHeight={"2.6rem"}>
-                <ListIcon as={BiRightArrow} color="white" />
-                As habilidades mais valiosas da gestão de negócios.
-              </ListItem>
-              <ListItem lineHeight={"2.6rem"} mt="35px">
-                <ListIcon as={BiRightArrow} color="white" />
-                Técnicas para fechar mais de 3 contratos por dia.
-              </ListItem>
-              <ListItem lineHeight={"2.6rem"} mt="35px">
-                <ListIcon as={BiRightArrow} color="white" />
-                Como colocar seu negócio no próximo nível.
-              </ListItem>
-            </List> */}
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Qual é o seu maior desafio?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Conquistar e vender para mais clientes?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Sair do operacional e ter tempo para a estratégia do seu negócio?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Fazer a gestão de times de alta performance?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Implantar uma cultura proativa com seu time?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Estabelecer processos eficazes na sua empresa?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Saber inovar com a tecnologia?
+            </Text>
+            <Text fontSize="1.5rem" fontFamily={"JosefinRegular"} mt="15px">
+              Ou investir em marketing digital com estratégia efetiva e retorno
+              garantido?
+            </Text>
           </Flex>
           <Flex
             flex={1}

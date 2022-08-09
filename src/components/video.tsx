@@ -19,7 +19,7 @@ export function Video() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      minH={["50vh", "50vh", "50vh", "50vh"]}
+      minH={["50vh", "126vh", "50vh", "50vh"]}
       pb={["5%", "5%"]}
       pt={["5%", "5%"]}
       backgroundImage="url('assets/images/bg-video.svg')"

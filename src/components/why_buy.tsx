@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 
 export function PorqueComprar() {
   return (
@@ -8,7 +8,7 @@ export function PorqueComprar() {
       maxW="100%"
       minH={["100vh", "100vh", "1000px", "500px", "100vh", "50vh"]}
       pt={["8%", "8%", "5%", "1%", "1%", "2%"]}
-      pb="5%"
+      pb="3%"
       backgroundImage="url('assets/images/bg_icons.svg')"
       backgroundSize="cover"
       backgroundAttachment={[
@@ -164,6 +164,41 @@ export function PorqueComprar() {
             </Box>
           </Box>
         </SimpleGrid>
+      </Box>
+
+      <Box fontFamily="Skyfall" mt="10px">
+        {/* aqui é um botão */}
+        <Button
+          color={"white"}
+          backgroundColor="#ed0a0a"
+          pt="3%"
+          borderRadius={"7px"}
+          as="a"
+          href="/pagamento"
+          target="_blank"
+          h={["80px"]}
+          w={["170px"]}
+          _hover={{
+            backgroundColor: "black",
+          }}
+          _focus={{
+            focus: "none",
+            border: "none",
+            backgroundColor: "black",
+          }}
+        >
+          <Box
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            alignContent="center"
+            textAlign="center"
+          >
+            <Text fontSize={["1.5rem"]}>QUERO</Text>
+
+            <Text fontSize={["1.5rem"]}>PARTICIPAR</Text>
+          </Box>
+        </Button>
       </Box>
     </Flex>
   );

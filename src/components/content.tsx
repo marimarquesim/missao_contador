@@ -12,6 +12,7 @@ import {
   useDisclosure,
   ModalCloseButton,
   Button,
+  Text,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Item } from "react-photoswipe-gallery";
@@ -291,6 +292,41 @@ export function Conteudo() {
             </Box>
           ))}{" "}
         </SimpleGrid>
+      </Box>
+
+      <Box fontFamily="Skyfall" mt="10px">
+        {/* aqui é um botão */}
+        <Button
+          color={"white"}
+          backgroundColor="#ed0a0a"
+          pt="3%"
+          borderRadius={"7px"}
+          as="a"
+          href="/pagamento"
+          target="_blank"
+          h={["80px"]}
+          w={["170px"]}
+          _hover={{
+            backgroundColor: "black",
+          }}
+          _focus={{
+            focus: "none",
+            border: "none",
+            backgroundColor: "black",
+          }}
+        >
+          <Box
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            alignContent="center"
+            textAlign="center"
+          >
+            <Text fontSize={["1.5rem"]}>QUERO</Text>
+
+            <Text fontSize={["1.5rem"]}>PARTICIPAR</Text>
+          </Box>
+        </Button>
       </Box>
     </Flex>
   );
