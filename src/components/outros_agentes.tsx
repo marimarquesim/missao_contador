@@ -195,6 +195,65 @@ export function OutrosAgentes() {
               Marketing pela Universidade Anhembi Morumbi e Contabilista.
             </Text>
           </Box>
+
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "250px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/alberto.jpeg"
+            />
+            <Text
+              textAlign={"center"}
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.6rem",
+              ]}
+            >
+              Alberto Corrêa Filho
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+            >
+              Diretor Executivo
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["16px", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Advogado com especialização em Direito do Trabalho graduado pela
+              ESA OABSP e Contabilista. Graduado em MBA em Controladoria e
+              Gestão em Serviços Contábeis pela Universidade Presbiteriana
+              Mackenzie.
+              <br />
+              OAB/SP: 259.943 CRC: 1SP 302.295
+            </Text>
+          </Box>
+
           <Box
             m="10px"
             display="flex"
@@ -353,6 +412,63 @@ export function OutrosAgentes() {
               Graduado em Administração de Empresas pela Pontifícia Universidade
               Católica de São Paulo (PUC-SP) e graduando em MBA de Business
               Process pela Fundação Getúlio Vargas (FGV-SP).
+            </Text>
+          </Box>
+
+          <Box
+            m="10px"
+            display="flex"
+            flexDirection="column"
+            justifyItems="center"
+            justifyContent="center"
+            alignContent="center"
+            alignItems="center"
+          >
+            <Box
+              rounded="full"
+              as="img"
+              w={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              h={["120px", "150px", "250px", "250px", "250px", "13vw"]}
+              src="assets/images/luiz.jpeg"
+            />
+            <Text
+              fontFamily={"JosefinBold"}
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "2vw",
+              ]}
+            >
+              Luiz Ciampi
+            </Text>
+            <Text
+              color="white"
+              fontSize={[
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.2rem",
+                "1.5rem",
+              ]}
+              textAlign="center"
+            >
+              Gerente Jurídico
+            </Text>
+            <Text
+              color="white"
+              textAlign={"center"}
+              fontSize={["1rem", "1rem", "1.2rem", "1.2rem", "1.2rem", "1rem"]}
+            >
+              Advogado pós-graduado em Direito e Processo do Trabalho pela
+              Escola Paulista de Direito (EPD) e pós-graduando em Direito
+              Corporativo e Compliance pela Escola Paulista de Direito (EPD).
+              <br />
+              OAB/SP: 256.120
             </Text>
           </Box>
         </Carousel>

@@ -90,8 +90,8 @@ export function Vagas() {
                 fontFamily="JosefinRegular"
                 pt={["5%", "5%", "5%", "7%"]}
               >
-                Não perca a oportunidade de descobrir os segredos de um dos
-                melhores contadores do país.
+                Não perca a oportunidade de descobrir os segredos de uma das
+                maiores referências em contabilidade do país.
               </Text>
               <Text
                 lineHeight="30px"
