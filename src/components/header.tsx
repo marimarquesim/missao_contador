@@ -174,7 +174,7 @@ export function Header() {
                 >
                   06, 07 e 08/10 <br /> São Paulo - SP
                 </Text>
-                <Text textAlign={"left"}>
+                <Text textAlign={["center", "center", "center", "left"]}>
                   <Box as="span"> Local do evento:</Box>
                   <br />
                   Espaço APAS
