@@ -10,7 +10,7 @@ export function Header() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1750px", "1380px", "1500px", "1750px", "750px", "1300px"]}
+      maxH={["1750px", "1380px", "1530px", "1750px", "750px", "1300px"]}
       pb={["3%", "14%", "0", "0", "0", "0%"]}
       pt={["2%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_header.svg')"
@@ -78,7 +78,7 @@ export function Header() {
               <Text
                 fontFamily="JosefinMedio"
                 fontSize={["2rem", "2rem", "2rem", "2rem", "1.8rem", "2.5rem"]}
-                lineHeight={["35px", "35px", "35px", "35px", "38px", "3vw"]}
+                lineHeight={["35px", "35px", "35px", "35px", "38px", "2.6vw"]}
               >
                 Você é{" "}
                 <Box as="span" fontFamily={"JosefinBold"}>
@@ -174,6 +174,15 @@ export function Header() {
                 >
                   06, 07 e 08/10 <br /> São Paulo - SP
                 </Text>
+                <Text textAlign={"left"}>
+                  <Box as="span"> Local do evento:</Box>
+                  <br />
+                  Espaço APAS
+                  <br />
+                  R. Pio XI, 1200 - Alto da Lapa,
+                  <br />
+                  CEP: 05060-001
+                </Text>
                 <Text
                   fontSize={[
                     "1.5rem",
@@ -198,7 +207,7 @@ export function Header() {
             justifyItems="center"
           >
             {" "}
-            <Box mt={["0%", "3%", "1%", "4%", "15%", "10%"]}>
+            <Box mt={["0%", "3%", "1%", "4%", "15%", "21%"]}>
               <Image
                 alt="Jhonny"
                 src="assets/images/00J.png"

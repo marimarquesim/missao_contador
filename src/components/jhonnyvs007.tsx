@@ -20,7 +20,7 @@ export function JhonnyVSJ1() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      maxH={["1448px", "1060px", "1000px", "1341px", "160vh"]}
+      maxH={["1448px", "1090px", "1040px", "1341px", "160vh"]}
       pb={["0%", "15%", "0"]}
       pt={["5%", "15%", "3%", "2%"]}
       backgroundImage="url('assets/images/bg_jhonny00j.svg')"

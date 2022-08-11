@@ -19,7 +19,7 @@ export function Video() {
       alignItems="center"
       alignContent="center"
       w="100%"
-      minH={["50vh", "126vh", "50vh", "50vh"]}
+      minH={["50vh", "130vh", "50vh", "50vh"]}
       pb={["5%", "5%"]}
       pt={["5%", "5%"]}
       backgroundImage="url('assets/images/bg-video.svg')"
@@ -38,8 +38,10 @@ export function Video() {
         textAlign="center"
         alignContent="center"
         justifyContent="center"
+        justifyItems={"center"}
       >
         <Heading
+          textAlign={"center"}
           pt={["3%", "3%", "3%"]}
           pb="1%"
           fontFamily="JosefinRegular"
