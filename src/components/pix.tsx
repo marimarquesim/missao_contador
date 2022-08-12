@@ -153,7 +153,7 @@ export function Pix() {
                 fontFamily="JosefinBold"
                 pt={["5%", "5%", "5%", "7%"]}
               >
-                Chave PIX - 32.886.411/0001-12
+                Chave PIX - 46.390.988/0001-43
               </Text>
             </Box>
           </Stack>
@@ -166,7 +166,7 @@ export function Pix() {
 // Missão Contador – 1º Lote
 
 // Missão Contador 3 – 1º lote - 50 % de desconto no PIX - R$1450,00
-// Chave PIX - 32.886.411/0001-12
+// Chave PIX - 46.390.988/0001-43
 
 // Missão Contador 3 – 1º lote - 50 % de desconto em até 10 x - R$1750,00
 // https://link.pagar.me/lS1rjuros5

@@ -249,8 +249,6 @@ export function OutrosAgentes() {
               ESA OABSP e Contabilista. Graduado em MBA em Controladoria e
               Gestão em Serviços Contábeis pela Universidade Presbiteriana
               Mackenzie.
-              <br />
-              OAB/SP: 259.943 CRC: 1SP 302.295
             </Text>
           </Box>
 
@@ -467,8 +465,6 @@ export function OutrosAgentes() {
               Advogado pós-graduado em Direito e Processo do Trabalho pela
               Escola Paulista de Direito (EPD) e pós-graduando em Direito
               Corporativo e Compliance pela Escola Paulista de Direito (EPD).
-              <br />
-              OAB/SP: 256.120
             </Text>
           </Box>
         </Carousel>
