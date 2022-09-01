@@ -110,7 +110,7 @@ export function Footer() {
             </Box>
 
             <Box
-              pt="5%"
+              pt="7%"
               display="flex"
               alignItems="center"
               alignContent="center"
