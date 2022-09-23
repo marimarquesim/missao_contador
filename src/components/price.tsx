@@ -75,7 +75,7 @@ export function Preco() {
                     color="red"
                   >
                     {" "}
-                    400,00
+                    450,00
                   </Box>
                 </Text>
               </Box>
@@ -89,7 +89,7 @@ export function Preco() {
                 fontSize={["27px", "27px", "33px"]}
                 fontFamily="JosefinMedio"
               >
-                ou R$3.500,00 à vista!
+                ou R$4.00,00 à vista!
               </Text>
               <Text>(economize R$500,00)</Text>
             </Box>

@@ -58,13 +58,12 @@ export function Pix() {
                 src="assets/images/Lote1Esgotado.svg"
                 w={["180px"]}
               />{" "}
-              {/*
-                <Image
-                  mt="10px"
-                  alt="Jhonny"
-                  src="assets/images/Lote2Esgotado.svg"
-                  w={["180px"]}
-                />{" "} */}
+              <Image
+                mt="10px"
+                alt="Jhonny"
+                src="assets/images/Lote2Esgotado.svg"
+                w={["180px"]}
+              />{" "}
               <Box
                 display={"flex"}
                 flexDirection="row"
@@ -75,7 +74,7 @@ export function Pix() {
                 justifyItems="center"
               >
                 <Heading fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}>
-                  Lote - 2
+                  Lote - 3
                 </Heading>
               </Box>
               <Heading
@@ -154,7 +153,7 @@ export function Pix() {
                 fontFamily="JosefinBold"
                 pt={["5%", "5%", "5%", "7%"]}
               >
-                Chave PIX - 32.886.411/0001-12
+                Chave PIX - 46.390.988/0001-43
               </Text>
             </Box>
           </Stack>

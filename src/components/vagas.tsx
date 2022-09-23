@@ -58,12 +58,12 @@ export function Vagas() {
                 src="assets/images/Lote1Esgotado.svg"
                 w={["180px"]}
               />{" "}
-              {/* <Image
+              <Image
                 mt="10px"
                 alt="Jhonny"
                 src="assets/images/Lote2Esgotado.svg"
                 w={["180px"]}
-              />{" "} */}
+              />{" "}
               <Box
                 display={"flex"}
                 flexDirection="row"
@@ -74,7 +74,7 @@ export function Vagas() {
                 justifyItems="center"
               >
                 <Heading fontSize={["2.5rem", "2.5rem", "2.5rem", "4rem"]}>
-                  Lote - 2
+                  Lote - 3
                 </Heading>
               </Box>
               <Heading
@@ -175,7 +175,7 @@ export function Vagas() {
                 bg="#ed0a0a"
                 mt="8%"
                 as="a"
-                href="https://link.pagar.me/lBJDSwHijc"
+                href="https://link.pagar.me/lHkKCHSiic"
                 target="_blank"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
