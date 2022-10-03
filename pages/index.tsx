@@ -76,7 +76,7 @@ export default function Home() {
         onEnterViewport={() => console.log("enter")}
         onLeaveViewport={() => console.log("leave")}
       /> */}
-      <Preco />
+      {/* <Preco /> */}
       <Vagas />
       <Footer />
       <WhastsAppButton />

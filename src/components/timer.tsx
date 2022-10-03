@@ -84,7 +84,7 @@ export function Timer() {
           fontFamily="JosefinRegular"
           fontSize={["2rem", "2.2rem", "3.5rem", "3.5rem", "3.1vw"]}
         >
-          VAGAS LIMITADAS - 06, 07 e 08 de Outubro
+          VAGAS ENCERRADAS - 06, 07 e 08 de Outubro
         </Heading>
       </Box>
       {/* <Box w="300px"> <MyTimer expiryTimestamp={time} /> </Box> */}

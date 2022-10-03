@@ -82,7 +82,7 @@ export function Vagas() {
                 lineHeight={"1.8rem"}
               >
                 <br />
-                Vagas Limitadas!
+                Vagas Encerradas!
               </Heading>
               <Text
                 lineHeight="25px"
@@ -124,8 +124,11 @@ export function Vagas() {
             pt={["5%", "5%", "5%", "0"]}
           >
             <Box mr={["", "6%"]}>
-              <Heading fontSize={["2rem", "2rem", "2.9rem"]}>
-                INSCREVA-SE AGORA
+              <Heading
+                fontFamily="JosefinMedio"
+                fontSize={["2rem", "2rem", "2.5rem"]}
+              >
+                FIQUE NA LISTA DE ESPERA PARA O PRÓXIMO MISSÃO:
               </Heading>
             </Box>
 
@@ -138,14 +141,12 @@ export function Vagas() {
               justifyItems={"0"}
               flexDirection="column"
             >
-              {/* Aqui é um botão */}
               <Button
                 bg="#ed0a0a"
                 pt="3%"
                 borderRadius={"7px"}
                 as="a"
-                href="/pagamento-a-vista"
-                target="_blank"
+                href="#footer"
                 h={["80px", "100px"]}
                 w={["200px", "250px"]}
                 _hover={{
@@ -164,13 +165,14 @@ export function Vagas() {
                   alignContent="center"
                   textAlign="center"
                 >
-                  <Text fontSize={["1.3rem", "1.7rem"]}>PAGAMENTO</Text>
+                  <Text fontSize={["1.5rem", "1.9rem"]}>INSCRIÇÕES</Text>
+                  {/* <Text fontSize={["1.3rem", "1.7rem"]}>PAGAMENTO</Text>
 
-                  <Text fontSize={["2.1rem", "3rem"]}>À VISTA</Text>
+                  <Text fontSize={["2.1rem", "3rem"]}>À VISTA</Text> */}
                 </Box>
               </Button>
-              {/* Aqui é um botão */}
-              <Button
+
+              {/* <Button
                 borderRadius={"7px"}
                 bg="#ed0a0a"
                 mt="8%"
@@ -200,7 +202,7 @@ export function Vagas() {
 
                   <Text fontSize={["1.7rem", "2.1rem", "2rem"]}>PARCELADO</Text>
                 </Box>
-              </Button>
+              </Button> */}
             </Box>
           </Stack>
         </Stack>

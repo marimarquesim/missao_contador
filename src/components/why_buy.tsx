@@ -174,8 +174,7 @@ export function PorqueComprar() {
           pt="3%"
           borderRadius={"7px"}
           as="a"
-          href="/pagamento"
-          target="_blank"
+          href="#footer"
           h={["80px"]}
           w={["170px"]}
           _hover={{
